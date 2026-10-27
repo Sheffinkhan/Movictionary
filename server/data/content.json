@@ -1,0 +1,420 @@
+{
+  "TERMS": [
+    {
+      "t": "Cameo",
+      "p": "noun",
+      "d": "A brief appearance by a well-known person, often the director or a star, in a small role.",
+      "e": "Stan Lee’s cameos became a tradition in Marvel films."
+    },
+    {
+      "t": "Plot Twist",
+      "p": "noun",
+      "d": "A sudden change in direction that shifts what the audience thought was happening.",
+      "e": "The ending’s plot twist made everyone rewatch the first half."
+    },
+    {
+      "t": "Montage",
+      "p": "noun",
+      "d": "A fast sequence of short shots that shows time passing or progress, usually set to music.",
+      "e": "The training montage took five minutes of screen time to show five weeks."
+    },
+    {
+      "t": "Easter Egg",
+      "p": "noun",
+      "d": "A hidden reference or detail placed in a film for sharp-eyed fans to find.",
+      "e": "There’s an Easter egg to the director’s first film on the poster in the background."
+    },
+    {
+      "t": "Cliffhanger",
+      "p": "noun",
+      "d": "An ending that leaves a major question unanswered to make you want the next part.",
+      "e": "The season ended on a cliffhanger with the hero’s fate unknown."
+    },
+    {
+      "t": "Foreshadowing",
+      "p": "noun",
+      "d": "A hint early in the story about something that happens later.",
+      "e": "The broken clock in act one was foreshadowing."
+    },
+    {
+      "t": "Flashback",
+      "p": "noun",
+      "d": "A scene that jumps back in time to show events that happened earlier.",
+      "e": "A flashback reveals why the detective left the force."
+    },
+    {
+      "t": "Mise-en-scène",
+      "p": "noun",
+      "d": "Everything you see in the frame: sets, costumes, lighting and the position of actors.",
+      "e": "The mise-en-scène of the red-lit corridor set the mood."
+    },
+    {
+      "t": "Box Office",
+      "p": "noun",
+      "d": "The total money a film earns from ticket sales.",
+      "e": "The film crossed 100 crore at the box office in its first week."
+    },
+    {
+      "t": "Blockbuster",
+      "p": "noun",
+      "d": "A very big, expensive and highly popular film, usually released with huge marketing.",
+      "e": "Summer is blockbuster season."
+    },
+    {
+      "t": "Director’s Cut",
+      "p": "noun",
+      "d": "A version of a film edited the way the director wants it, often longer than the theatrical release.",
+      "e": "The director’s cut adds twenty minutes of new scenes."
+    },
+    {
+      "t": "Spin-off",
+      "p": "noun",
+      "d": "A new story built around a character or world from an existing film or series.",
+      "e": "The villain’s spin-off got its own trilogy."
+    },
+    {
+      "t": "Sequel",
+      "p": "noun",
+      "d": "A film that continues the story of an earlier one.",
+      "e": "The sequel picks up one year after the first ending."
+    },
+    {
+      "t": "Prequel",
+      "p": "noun",
+      "d": "A film that tells the story of events before the original film.",
+      "e": "The prequel explains how the hero got the scar."
+    },
+    {
+      "t": "Trailer",
+      "p": "noun",
+      "d": "A short preview of a film that shows highlights to build interest.",
+      "e": "The trailer dropped at midnight and trended all morning."
+    },
+    {
+      "t": "Soundtrack",
+      "p": "noun",
+      "d": "The recorded music of a film, including songs and the background score.",
+      "e": "The soundtrack was on repeat for weeks."
+    },
+    {
+      "t": "Background Score",
+      "p": "noun",
+      "d": "Music composed to play under scenes and heighten emotion, separate from songs.",
+      "e": "The background score made the silent scene unbearable."
+    },
+    {
+      "t": "Screenplay",
+      "p": "noun",
+      "d": "The written script of a film with dialogue, action and scene directions.",
+      "e": "The screenplay won an award before the film even released."
+    },
+    {
+      "t": "Cinematography",
+      "p": "noun",
+      "d": "The art of camera work, framing and lighting in a film.",
+      "e": "The cinematography turned a desert into a painting."
+    },
+    {
+      "t": "Long Take",
+      "p": "noun",
+      "d": "A single shot that runs for a long time without a cut.",
+      "e": "The fight was filmed in one long take."
+    },
+    {
+      "t": "Jump Scare",
+      "p": "noun",
+      "d": "A sudden shock, usually a loud sound with a quick image, meant to make you jump.",
+      "e": "The jump scare in the mirror got the whole theater."
+    },
+    {
+      "t": "Underrated",
+      "p": "adjective",
+      "d": "Better than its reputation or popularity suggests.",
+      "e": "An underrated thriller that deserves a second look."
+    },
+    {
+      "t": "Binge-watch",
+      "p": "verb",
+      "d": "To watch many episodes of a series back to back in one sitting.",
+      "e": "We binge-watched the whole season in a weekend."
+    },
+    {
+      "t": "Voiceover",
+      "p": "noun",
+      "d": "A narrator’s voice heard over the picture, not spoken by someone in the scene.",
+      "e": "The voiceover tells the story from twenty years later."
+    },
+    {
+      "t": "Credits Scene",
+      "p": "noun",
+      "d": "An extra scene shown during or after the end credits, often teasing what’s next.",
+      "e": "Stay seated for the post-credits scene."
+    },
+    {
+      "t": "Dubbing",
+      "p": "noun",
+      "d": "Replacing the original dialogue with a recording in another language.",
+      "e": "The Telugu dubbing released a week after the original."
+    },
+    {
+      "t": "Remake",
+      "p": "noun",
+      "d": "A new version of an older film, often in a different language or era.",
+      "e": "The Hindi remake changed the climax."
+    }
+  ],
+  "REVIEWS": [
+    {
+      "t": "Inception",
+      "g": "Sci-Fi",
+      "y": 2010,
+      "s": 9,
+      "x": "A heist inside dreams with a ticking clock and a score you will hum for days. Needs your full attention, and rewards it."
+    },
+    {
+      "t": "Interstellar",
+      "g": "Sci-Fi",
+      "y": 2014,
+      "s": 9,
+      "x": "Big ideas, bigger emotions. The father-daughter thread lands harder than the space visuals."
+    },
+    {
+      "t": "3 Idiots",
+      "g": "Comedy",
+      "y": 2009,
+      "s": 9,
+      "x": "A comfort watch about learning for the love of it. Funny, warm and still quoted everywhere."
+    },
+    {
+      "t": "Parasite",
+      "g": "Thriller",
+      "y": 2019,
+      "s": 10,
+      "x": "A sharp class story that shifts tone without warning. Go in knowing as little as you can."
+    },
+    {
+      "t": "Coco",
+      "g": "Animation",
+      "y": 2017,
+      "s": 9,
+      "x": "Colorful, musical and quietly devastating. Keep tissues nearby."
+    },
+    {
+      "t": "The Dark Knight",
+      "g": "Action",
+      "y": 2008,
+      "s": 10,
+      "x": "The villain steals every scene and the story still holds together. The benchmark for superhero films."
+    }
+  ],
+  "SONGS": [
+    {
+      "title": "Time",
+      "artist": "Hans Zimmer",
+      "movie": "Inception"
+    },
+    {
+      "title": "Cornfield Chase",
+      "artist": "Hans Zimmer",
+      "movie": "Interstellar"
+    },
+    {
+      "title": "Remember Me",
+      "artist": "Coco soundtrack",
+      "movie": "Coco"
+    },
+    {
+      "title": "Aal Izz Well",
+      "artist": "Shantanu Moitra",
+      "movie": "3 Idiots"
+    },
+    {
+      "title": "Why So Serious?",
+      "artist": "Hans Zimmer & James Newton Howard",
+      "movie": "The Dark Knight"
+    }
+  ],
+  "UPDATES": [
+    {
+      "d": "14",
+      "m": "Nov",
+      "h": "Big trailer drop expected this week",
+      "p": "Fans are watching for the first look at the holiday release slate.",
+      "tag": "Trailer"
+    },
+    {
+      "d": "21",
+      "m": "Nov",
+      "h": "Theatrical release roundup",
+      "p": "Check which films hit screens this weekend and which are worth the ticket.",
+      "tag": "Release"
+    },
+    {
+      "d": "05",
+      "m": "Dec",
+      "h": "New season lands on streaming",
+      "p": "Our spoiler-free preview goes live a day before the premiere.",
+      "tag": "OTT"
+    },
+    {
+      "d": "12",
+      "m": "Dec",
+      "h": "Awards season shortlist",
+      "p": "A look at the early frontrunners and the quiet contenders.",
+      "tag": "Awards"
+    }
+  ],
+  "BOOKS": [
+    {
+      "b": "Dune",
+      "f": "Dune (2021)",
+      "a": "Frank Herbert",
+      "v": "The book lives in the characters’ thoughts. The film turns that into scale and sound."
+    },
+    {
+      "b": "The Hunger Games",
+      "f": "The Hunger Games (2012)",
+      "a": "Suzanne Collins",
+      "v": "First-person narration gives the book its pressure. The film shows the wider world."
+    },
+    {
+      "b": "Harry Potter",
+      "f": "Harry Potter series",
+      "a": "J.K. Rowling",
+      "v": "Pages give you the small details. Films give you the look of Hogwarts."
+    },
+    {
+      "b": "Five Point Someone",
+      "f": "3 Idiots",
+      "a": "Chetan Bhagat",
+      "v": "The film keeps the campus spirit and changes the story and ending."
+    }
+  ],
+  "STORY": {
+    "t": "Short story spotlight",
+    "x": "Have a 200-word story or a movie memory? Send it in and get featured on the page and in Instagram stories."
+  },
+  "TIPS": [
+    [
+      "Hook in 2 seconds",
+      "Open reels with the most surprising line, scene fact or question. Context comes after."
+    ],
+    [
+      "One post, one idea",
+      "A single term or a single review per post is easier to save and share than a long list."
+    ],
+    [
+      "Reuse the series",
+      "Make Word of the Day a fixed format so followers know when to come back."
+    ],
+    [
+      "Ask, then answer",
+      "End with a question for the comments, and reply with a new post for the best ones."
+    ]
+  ],
+  "QUIZ": [
+    {
+      "e": "🚢🧊❤️",
+      "a": [
+        "titanic"
+      ],
+      "h": "Hint: 1997 romance, tragic ending"
+    },
+    {
+      "e": "🦁👑🌅",
+      "a": [
+        "the lion king",
+        "lion king"
+      ],
+      "h": "Hint: Disney, Simba"
+    },
+    {
+      "e": "🕷️🧑‍🎓🏙️",
+      "a": [
+        "spider-man",
+        "spiderman",
+        "spider man"
+      ],
+      "h": "Hint: Friendly neighborhood hero"
+    },
+    {
+      "e": "🧙‍♂️💍🌋",
+      "a": [
+        "the lord of the rings",
+        "lord of the rings",
+        "lotr"
+      ],
+      "h": "Hint: One ring to rule them all"
+    },
+    {
+      "e": "🦈🏖️😱",
+      "a": [
+        "jaws"
+      ],
+      "h": "Hint: You’re gonna need a bigger boat"
+    },
+    {
+      "e": "🤖❤️🗑️",
+      "a": [
+        "wall-e",
+        "walle",
+        "wall e"
+      ],
+      "h": "Hint: A tiny robot cleaning Earth"
+    },
+    {
+      "e": "🃏🦇🌃",
+      "a": [
+        "the dark knight",
+        "dark knight",
+        "joker",
+        "the joker"
+      ],
+      "h": "Hint: Gotham, a chaotic villain"
+    }
+  ],
+  "POLL": [
+    {
+      "label": "Thriller",
+      "votes": 42
+    },
+    {
+      "label": "Comedy",
+      "votes": 35
+    },
+    {
+      "label": "Sci-Fi",
+      "votes": 28
+    },
+    {
+      "label": "Romance",
+      "votes": 21
+    }
+  ],
+  "MOODS": {
+    "Need a good cry": [
+      "Coco",
+      "Music, family and a very emotional finish."
+    ],
+    "Want to laugh out loud": [
+      "3 Idiots",
+      "Friendship, campus life and big laughs with a message."
+    ],
+    "Feeling adventurous": [
+      "Interstellar",
+      "Space, time and a story that stays with you."
+    ],
+    "In the mood for a twist": [
+      "Parasite",
+      "Starts one way and ends somewhere you do not expect."
+    ],
+    "Need a pump-up": [
+      "The Dark Knight",
+      "Action, tension and one unforgettable villain."
+    ],
+    "Something mind-bending": [
+      "Inception",
+      "Dreams inside dreams. Pay attention."
+    ]
+  }
+}
