@@ -16,6 +16,7 @@ export default function App() {
   const [toastText, setToastText] = useState('');
   const timer = useRef();
   const [today] = useApi('/api/terms/today', null);
+  const [allTerms] = useApi('/api/terms', []);
   const [heroQuery, setHeroQuery] = useState('');
   const [search, setSearch] = useState('');
 
@@ -81,9 +82,9 @@ export default function App() {
       <main className="wrap" id="top">
         <header className="hero">
           <div>
-            <div className="eyebrow">Movie dictionary · Songs · Reviews · Updates</div>
-            <h1>Every <em>movie word</em>, explained.</h1>
-            <p className="lead">Movictionary is the pocket dictionary for film lovers. Look up a term, find a review, catch the latest updates and test yourself with a daily guess.</p>
+            <div className="eyebrow">Malayalam cinema · Dictionary · Songs · Reviews</div>
+            <h1>Every <em>Mollywood</em> word, explained.</h1>
+            <p className="lead">Movictionary is the pocket dictionary for Malayalam film lovers. Look up a term, find a review, catch the latest releases and test yourself with a daily guess.</p>
             <form className="search" onSubmit={onHeroSearch} role="search">
               <label className="sr" htmlFor="heroQ">Search the dictionary</label>
               <input id="heroQ" value={heroQuery} onChange={(e) => setHeroQuery(e.target.value)} placeholder="Try “cameo”, “montage” or “plot twist”" autoComplete="off" />
@@ -93,7 +94,7 @@ export default function App() {
               <a className="btn ghost" href={INSTAGRAM} target="_blank" rel="noopener">Follow @movictionary_</a>
               <a className="btn ghost" href="#play">Play today’s quiz</a>
             </div>
-            <div className="stats"><div><b>5,112</b><span>followers on Instagram</span></div><div><b>27</b><span>terms in the dictionary</span></div></div>
+            <div className="stats"><div><b>5,112</b><span>followers on Instagram</span></div><div><b>{allTerms.length || ''}</b><span>terms in the dictionary</span></div></div>
           </div>
           <article className="wotd" aria-live="polite">
             <div className="eyebrow">Word of the day</div>

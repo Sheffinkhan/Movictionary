@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useApi } from '../lib.js';
 
-const GENRES = ['All', 'Sci-Fi', 'Comedy', 'Thriller', 'Animation', 'Action'];
-
 export default function Reviews({ watchlist, onToggle }) {
   const [genre, setGenre] = useState('All');
-  const [reviews] = useApi(`/api/reviews?genre=${encodeURIComponent(genre)}`, []);
+  const [all] = useApi('/api/reviews', []);
+  const GENRES = ['All', ...new Set(all.map((r) => r.g))];
+  const reviews = genre === 'All' ? all : all.filter((r) => r.g === genre);
 
   return (
     <section id="reviews">

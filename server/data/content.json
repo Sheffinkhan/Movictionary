@@ -161,216 +161,243 @@
       "p": "noun",
       "d": "A new version of an older film, often in a different language or era.",
       "e": "The Hindi remake changed the climax."
+    },
+    {
+      "t": "Mollywood",
+      "p": "noun",
+      "d": "The nickname for the Malayalam-language film industry, based in Kerala.",
+      "e": "Mollywood is known for realistic stories and strong writing."
+    },
+    {
+      "t": "FDFS",
+      "p": "noun",
+      "d": "First Day First Show: the very first screening of a film on release day, packed with fans.",
+      "e": "We booked FDFS tickets the minute bookings opened."
+    },
+    {
+      "t": "Onam Release",
+      "p": "noun",
+      "d": "A big film released around Onam, the Kerala festival, to catch the holiday crowds.",
+      "e": "The Onam release had houseful shows all week."
+    },
+    {
+      "t": "Mass Scene",
+      "p": "noun",
+      "d": "A moment built to make the hero look larger than life, with slow motion and a loud score.",
+      "e": "The entry was the best mass scene of the year."
+    },
+    {
+      "t": "IFFK",
+      "p": "noun",
+      "d": "The International Film Festival of Kerala, held in Thiruvananthapuram.",
+      "e": "She watched six films in one day at IFFK."
+    },
+    {
+      "t": "Kerala State Film Awards",
+      "p": "noun",
+      "d": "The yearly state awards for the best work in Malayalam cinema.",
+      "e": "The film swept the Kerala State Film Awards."
+    },
+    {
+      "t": "Re-release",
+      "p": "noun",
+      "d": "Bringing an older film back to theaters, often in restored quality.",
+      "e": "The re-release brought a new generation to the cinema hall."
     }
   ],
   "REVIEWS": [
     {
-      "t": "Inception",
-      "g": "Sci-Fi",
-      "y": 2010,
-      "s": 9,
-      "x": "A heist inside dreams with a ticking clock and a score you will hum for days. Needs your full attention, and rewards it."
-    },
-    {
-      "t": "Interstellar",
-      "g": "Sci-Fi",
-      "y": 2014,
-      "s": 9,
-      "x": "Big ideas, bigger emotions. The father-daughter thread lands harder than the space visuals."
-    },
-    {
-      "t": "3 Idiots",
-      "g": "Comedy",
-      "y": 2009,
-      "s": 9,
-      "x": "A comfort watch about learning for the love of it. Funny, warm and still quoted everywhere."
-    },
-    {
-      "t": "Parasite",
+      "t": "Drishyam",
       "g": "Thriller",
-      "y": 2019,
-      "s": 10,
-      "x": "A sharp class story that shifts tone without warning. Go in knowing as little as you can."
-    },
-    {
-      "t": "Coco",
-      "g": "Animation",
-      "y": 2017,
+      "y": 2013,
       "s": 9,
-      "x": "Colorful, musical and quietly devastating. Keep tissues nearby."
+      "x": "A family man, a cable TV business and one very clever plan. The screenplay keeps you guessing right to the end."
     },
     {
-      "t": "The Dark Knight",
-      "g": "Action",
-      "y": 2008,
-      "s": 10,
-      "x": "The villain steals every scene and the story still holds together. The benchmark for superhero films."
+      "t": "Premam",
+      "g": "Romance",
+      "y": 2015,
+      "s": 8,
+      "x": "Three stages of one man's love life, with music and college nostalgia that many still hum."
+    },
+    {
+      "t": "Kumbalangi Nights",
+      "g": "Drama",
+      "y": 2019,
+      "s": 9,
+      "x": "Four brothers, one broken house and a warm story about becoming a family. Gentle, funny and real."
+    },
+    {
+      "t": "Manjummel Boys",
+      "g": "Survival",
+      "y": 2024,
+      "s": 9,
+      "x": "Friends on a trip, a fall into a cave and a rescue built on loyalty. Tense from the first hour."
+    },
+    {
+      "t": "Maheshinte Prathikaaram",
+      "g": "Comedy",
+      "y": 2016,
+      "s": 9,
+      "x": "A small-town photographer and a slap he will not forget. Simple, local and full of laughs."
+    },
+    {
+      "t": "Aavesham",
+      "g": "Comedy",
+      "y": 2024,
+      "s": 8,
+      "x": "Three college students and a local don with a loud style. Pure fun with great timing."
     }
   ],
   "SONGS": [
     {
-      "title": "Time",
-      "artist": "Hans Zimmer",
-      "movie": "Inception"
+      "title": "Malare",
+      "artist": "Rajesh Murugesan",
+      "movie": "Premam"
     },
     {
-      "title": "Cornfield Chase",
-      "artist": "Hans Zimmer",
-      "movie": "Interstellar"
+      "title": "Jimikki Kammal",
+      "artist": "Shaan Rahman",
+      "movie": "Velipadinte Pusthakam"
     },
     {
-      "title": "Remember Me",
-      "artist": "Coco soundtrack",
-      "movie": "Coco"
+      "title": "Kanmani Anbodu",
+      "artist": "Ilaiyaraaja",
+      "movie": "Manjummel Boys (from Guna)"
     },
     {
-      "title": "Aal Izz Well",
-      "artist": "Shantanu Moitra",
-      "movie": "3 Idiots"
+      "title": "Illuminati",
+      "artist": "Sushin Shyam",
+      "movie": "Aavesham"
     },
     {
-      "title": "Why So Serious?",
-      "artist": "Hans Zimmer & James Newton Howard",
-      "movie": "The Dark Knight"
+      "title": "Poomuthole",
+      "artist": "Ranjin Raj",
+      "movie": "Joseph"
     }
   ],
   "UPDATES": [
     {
       "d": "14",
       "m": "Nov",
-      "h": "Big trailer drop expected this week",
-      "p": "Fans are watching for the first look at the holiday release slate.",
+      "h": "New Malayalam trailers to watch this week",
+      "p": "A quick roundup of the first looks fans are talking about.",
       "tag": "Trailer"
     },
     {
       "d": "21",
       "m": "Nov",
-      "h": "Theatrical release roundup",
-      "p": "Check which films hit screens this weekend and which are worth the ticket.",
+      "h": "This week in Kerala theaters",
+      "p": "Fresh Malayalam releases and which ones are worth the ticket.",
       "tag": "Release"
     },
     {
       "d": "05",
       "m": "Dec",
-      "h": "New season lands on streaming",
-      "p": "Our spoiler-free preview goes live a day before the premiere.",
+      "h": "Malayalam films landing on OTT",
+      "p": "Streaming dates for recent hits, so you can plan your weekend.",
       "tag": "OTT"
     },
     {
       "d": "12",
       "m": "Dec",
-      "h": "Awards season shortlist",
-      "p": "A look at the early frontrunners and the quiet contenders.",
-      "tag": "Awards"
+      "h": "IFFK picks from Thiruvananthapuram",
+      "p": "The films to catch at the Kerala film festival.",
+      "tag": "Festival"
     }
   ],
   "BOOKS": [
     {
-      "b": "Dune",
-      "f": "Dune (2021)",
-      "a": "Frank Herbert",
-      "v": "The book lives in the characters’ thoughts. The film turns that into scale and sound."
+      "b": "Aadujeevitham (Goat Days)",
+      "f": "Aadujeevitham (2024)",
+      "a": "Benyamin",
+      "v": "The novel carries the loneliness inside the character's mind. The film turns it into desert and silence."
     },
     {
-      "b": "The Hunger Games",
-      "f": "The Hunger Games (2012)",
-      "a": "Suzanne Collins",
-      "v": "First-person narration gives the book its pressure. The film shows the wider world."
+      "b": "Chemmeen",
+      "f": "Chemmeen (1965)",
+      "a": "Thakazhi Sivasankara Pillai",
+      "v": "A classic coastal love story that became one of the landmark Malayalam films."
     },
     {
-      "b": "Harry Potter",
-      "f": "Harry Potter series",
-      "a": "J.K. Rowling",
-      "v": "Pages give you the small details. Films give you the look of Hogwarts."
-    },
-    {
-      "b": "Five Point Someone",
-      "f": "3 Idiots",
-      "a": "Chetan Bhagat",
-      "v": "The film keeps the campus spirit and changes the story and ending."
+      "b": "Malayalam novels on screen",
+      "f": "Your pick",
+      "a": "Tell us a book",
+      "v": "Suggest a Malayalam book you want compared with its film and we will feature it."
     }
   ],
   "STORY": {
     "t": "Short story spotlight",
-    "x": "Have a 200-word story or a movie memory? Send it in and get featured on the page and in Instagram stories."
+    "x": "Have a 200-word story in Malayalam or English, or a memory of your first Malayalam theater experience? Send it in and get featured."
   },
   "TIPS": [
     [
+      "Write in Manglish too",
+      "Mix English and Malayalam in captions so both audiences find your post."
+    ],
+    [
       "Hook in 2 seconds",
-      "Open reels with the most surprising line, scene fact or question. Context comes after."
+      "Open with the dialogue, scene or fact people already love. Context comes after."
     ],
     [
-      "One post, one idea",
-      "A single term or a single review per post is easier to save and share than a long list."
-    ],
-    [
-      "Reuse the series",
-      "Make Word of the Day a fixed format so followers know when to come back."
+      "Post on release days",
+      "Reviews and first-day reactions get the most reach on FDFS day."
     ],
     [
       "Ask, then answer",
-      "End with a question for the comments, and reply with a new post for the best ones."
+      "End with a question for the comments and reply with a new post for the best ones."
     ]
   ],
   "QUIZ": [
     {
-      "e": "🚢🧊❤️",
+      "e": "🌴🛶🐟",
       "a": [
-        "titanic"
+        "kumbalangi nights"
       ],
-      "h": "Hint: 1997 romance, tragic ending"
+      "h": "Hint: Four brothers in a Kochi fishing village"
     },
     {
-      "e": "🦁👑🌅",
+      "e": "⛰️🕳️👬",
       "a": [
-        "the lion king",
-        "lion king"
+        "manjummel boys"
       ],
-      "h": "Hint: Disney, Simba"
+      "h": "Hint: A trip to Kodaikanal, a cave and a rescue"
     },
     {
-      "e": "🕷️🧑‍🎓🏙️",
+      "e": "🌼👩‍🏫🎸",
       "a": [
-        "spider-man",
-        "spiderman",
-        "spider man"
+        "premam"
       ],
-      "h": "Hint: Friendly neighborhood hero"
+      "h": "Hint: George, Malar and a college song"
     },
     {
-      "e": "🧙‍♂️💍🌋",
+      "e": "👨‍👩‍👧📺🚓",
       "a": [
-        "the lord of the rings",
-        "lord of the rings",
-        "lotr"
+        "drishyam"
       ],
-      "h": "Hint: One ring to rule them all"
+      "h": "Hint: A cable operator and his family"
     },
     {
-      "e": "🦈🏖️😱",
+      "e": "🕶️💰🎂",
       "a": [
-        "jaws"
+        "aavesham"
       ],
-      "h": "Hint: You’re gonna need a bigger boat"
+      "h": "Hint: Ranga and three college students in Bengaluru"
     },
     {
-      "e": "🤖❤️🗑️",
+      "e": "📸🤝🏘️",
       "a": [
-        "wall-e",
-        "walle",
-        "wall e"
+        "maheshinte prathikaaram",
+        "maheshinte prathikaram"
       ],
-      "h": "Hint: A tiny robot cleaning Earth"
+      "h": "Hint: A photographer from Idukki and a slap"
     },
     {
-      "e": "🃏🦇🌃",
+      "e": "🏍️🏙️💑",
       "a": [
-        "the dark knight",
-        "dark knight",
-        "joker",
-        "the joker"
+        "bangalore days"
       ],
-      "h": "Hint: Gotham, a chaotic villain"
+      "h": "Hint: Three cousins, one city"
     }
   ],
   "POLL": [
@@ -393,28 +420,28 @@
   ],
   "MOODS": {
     "Need a good cry": [
-      "Coco",
-      "Music, family and a very emotional finish."
+      "Kumbalangi Nights",
+      "A family story that hits the heart without trying too hard."
     ],
     "Want to laugh out loud": [
-      "3 Idiots",
-      "Friendship, campus life and big laughs with a message."
-    ],
-    "Feeling adventurous": [
-      "Interstellar",
-      "Space, time and a story that stays with you."
+      "Aavesham",
+      "Fast, funny and full of style."
     ],
     "In the mood for a twist": [
-      "Parasite",
-      "Starts one way and ends somewhere you do not expect."
+      "Drishyam",
+      "One plan and a screenplay that never lets go."
     ],
-    "Need a pump-up": [
-      "The Dark Knight",
-      "Action, tension and one unforgettable villain."
+    "Feeling nostalgic": [
+      "Premam",
+      "College days, first love and songs that bring it all back."
     ],
-    "Something mind-bending": [
-      "Inception",
-      "Dreams inside dreams. Pay attention."
+    "Need a nail-biter": [
+      "Manjummel Boys",
+      "Friendship under pressure with real edge-of-seat moments."
+    ],
+    "Want something light": [
+      "Maheshinte Prathikaaram",
+      "Small-town comedy with a lot of heart."
     ]
   }
 }
