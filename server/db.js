@@ -89,6 +89,8 @@ export async function initDb() {
   for (const [Model, rows] of seed) {
     if ((await Model.count()) === 0) await Model.bulkCreate(rows);
   }
+  // Films added to movies.json later reach existing databases too (matched by id).
+  await Movie.bulkCreate(read('movies.json'), { ignoreDuplicates: true });
   if ((await Post.count()) === 0) {
     const dir = path.join(UPLOADS, 'posts', 'welcome');
     fs.mkdirSync(dir, { recursive: true });

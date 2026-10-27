@@ -28,16 +28,18 @@ function NotFound() {
 export default function App() {
   const [watchlist, setWatchlist] = useState(() => storage.get('mov-wl', []));
   const [panel, setPanel] = useState(false);
+  const [menu, setMenu] = useState(false);
   const [toastText, setToastText] = useState('');
   const timer = useRef();
   const { pathname } = useLocation();
 
   useEffect(() => { storage.set('mov-wl', watchlist); }, [watchlist]);
-  useEffect(() => { window.scrollTo(0, 0); setPanel(false); }, [pathname]);
+  useEffect(() => { window.scrollTo(0, 0); setPanel(false); setMenu(false); }, [pathname]);
+  useEffect(() => { document.body.classList.toggle('lock', menu || panel); }, [menu, panel]);
   useEffect(() => {
     const saved = storage.get('mov-theme', null);
     if (saved) document.documentElement.setAttribute('data-theme', saved);
-    const onKey = (e) => e.key === 'Escape' && setPanel(false);
+    const onKey = (e) => { if (e.key === 'Escape') { setPanel(false); setMenu(false); } };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
   }, []);
@@ -73,10 +75,29 @@ export default function App() {
             {LINKS.map(([to, label]) => <NavLink key={to} to={to}>{label}</NavLink>)}
             <a href="/api/docs" target="_blank" rel="noopener">API</a>
           </div>
-          <button className="icon-btn" onClick={() => setPanel(true)}>Watchlist<span className="wl-count">{watchlist.length}</span></button>
-          <button className="icon-btn" onClick={toggleTheme} aria-label="Switch light or dark theme">Theme</button>
+          <button className="icon-btn" onClick={() => setPanel(true)} aria-label="Open watchlist"><span className="lbl">Watchlist</span><span className="ico" aria-hidden="true">♥</span><span className="wl-count">{watchlist.length}</span></button>
+          <button className="icon-btn" onClick={toggleTheme} aria-label="Switch light or dark theme"><span className="lbl">Theme</span><span className="ico" aria-hidden="true">◐</span></button>
         </div>
       </nav>
+
+      <div className={`sheet ${menu ? 'open' : ''}`} onClick={() => setMenu(false)} aria-hidden={!menu}>
+        <div className="sheet-in" onClick={(e) => e.stopPropagation()}>
+          <div className="sheet-head"><b>Explore</b><button className="icon-btn" onClick={() => setMenu(false)}>Close</button></div>
+          <div className="sheet-grid">
+            <NavLink to="/" end>Home</NavLink>
+            {LINKS.map(([to, label]) => <NavLink key={to} to={to}>{label}</NavLink>)}
+            <a href="/api/docs" target="_blank" rel="noopener">API</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="tabbar" role="navigation" aria-label="Quick links">
+        <NavLink to="/" end><i>⌂</i>Home</NavLink>
+        <NavLink to="/movies"><i>▶</i>Movies</NavLink>
+        <NavLink to="/dictionary"><i>Aa</i>Words</NavLink>
+        <NavLink to="/stories"><i>✎</i>Stories</NavLink>
+        <button className={menu ? 'active' : ''} onClick={() => setMenu(true)}><i>☰</i>More</button>
+      </div>
 
       <aside className={`panel ${panel ? 'open' : ''}`} aria-label="Your watchlist">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

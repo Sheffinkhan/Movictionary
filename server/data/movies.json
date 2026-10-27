@@ -467,5 +467,1433 @@
     "year": 2014,
     "director": "Jibu Jacob",
     "genre": "Comedy"
+  },
+  {
+    "id": "chemmeen-1965",
+    "title": "Chemmeen",
+    "year": 1965,
+    "director": "Ramu Kariat",
+    "genre": "Romance"
+  },
+  {
+    "id": "neelakkuyil-1954",
+    "title": "Neelakkuyil",
+    "year": 1954,
+    "director": "P. Bhaskaran, Ramu Kariat",
+    "genre": "Drama"
+  },
+  {
+    "id": "nirmalyam-1973",
+    "title": "Nirmalyam",
+    "year": 1973,
+    "director": "M. T. Vasudevan Nair",
+    "genre": "Drama"
+  },
+  {
+    "id": "swayamvaram-1972",
+    "title": "Swayamvaram",
+    "year": 1972,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "kodiyettam-1978",
+    "title": "Kodiyettam",
+    "year": 1978,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "elippathayam-1981",
+    "title": "Elippathayam",
+    "year": 1981,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "anantaram-1987",
+    "title": "Anantaram",
+    "year": 1987,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "mathilukal-1990",
+    "title": "Mathilukal",
+    "year": 1990,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "nizhalkuthu-2002",
+    "title": "Nizhalkuthu",
+    "year": 2002,
+    "director": "Adoor Gopalakrishnan",
+    "genre": "Drama"
+  },
+  {
+    "id": "piravi-1989",
+    "title": "Piravi",
+    "year": 1989,
+    "director": "Shaji N. Karun",
+    "genre": "Drama"
+  },
+  {
+    "id": "vanaprastham-1999",
+    "title": "Vanaprastham",
+    "year": 1999,
+    "director": "Shaji N. Karun",
+    "genre": "Drama"
+  },
+  {
+    "id": "thakara-1979",
+    "title": "Thakara",
+    "year": 1979,
+    "director": "Bharathan",
+    "genre": "Drama"
+  },
+  {
+    "id": "chamaram-1980",
+    "title": "Chamaram",
+    "year": 1980,
+    "director": "Bharathan",
+    "genre": "Romance"
+  },
+  {
+    "id": "vaishali-1988",
+    "title": "Vaishali",
+    "year": 1988,
+    "director": "Bharathan",
+    "genre": "Romance"
+  },
+  {
+    "id": "amaram-1991",
+    "title": "Amaram",
+    "year": 1991,
+    "director": "Bharathan",
+    "genre": "Drama"
+  },
+  {
+    "id": "yavanika-1982",
+    "title": "Yavanika",
+    "year": 1982,
+    "director": "K. G. George",
+    "genre": "Thriller"
+  },
+  {
+    "id": "adaminte-vaariyellu-1983",
+    "title": "Adaminte Vaariyellu",
+    "year": 1983,
+    "director": "K. G. George",
+    "genre": "Drama"
+  },
+  {
+    "id": "panchavadi-palam-1984",
+    "title": "Panchavadi Palam",
+    "year": 1984,
+    "director": "K. G. George",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ee-nadu-1982",
+    "title": "Ee Nadu",
+    "year": 1982,
+    "director": "I. V. Sasi",
+    "genre": "Crime"
+  },
+  {
+    "id": "avanazhi-1986",
+    "title": "Avanazhi",
+    "year": 1986,
+    "director": "I. V. Sasi",
+    "genre": "Crime"
+  },
+  {
+    "id": "namukku-parkkan-munthirithoppukal-1986",
+    "title": "Namukku Parkkan Munthirithoppukal",
+    "year": 1986,
+    "director": "Padmarajan",
+    "genre": "Romance"
+  },
+  {
+    "id": "thoovanathumbikal-1987",
+    "title": "Thoovanathumbikal",
+    "year": 1987,
+    "director": "Padmarajan",
+    "genre": "Romance"
+  },
+  {
+    "id": "moonnampakkam-1988",
+    "title": "Moonnampakkam",
+    "year": 1988,
+    "director": "Padmarajan",
+    "genre": "Drama"
+  },
+  {
+    "id": "rajavinte-makan-1986",
+    "title": "Rajavinte Makan",
+    "year": 1986,
+    "director": "Thampi Kannanthanam",
+    "genre": "Action"
+  },
+  {
+    "id": "sanmanassullavarkku-samadhanam-1986",
+    "title": "Sanmanassullavarkku Samadhanam",
+    "year": 1986,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "t-p-balagopalan-m-a-1986",
+    "title": "T. P. Balagopalan M.A.",
+    "year": 1986,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "gandhinagar-2nd-street-1986",
+    "title": "Gandhinagar 2nd Street",
+    "year": 1986,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "pattanapravesham-1988",
+    "title": "Pattanapravesham",
+    "year": 1988,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "sandesam-1991",
+    "title": "Sandesam",
+    "year": 1991,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "poochakkoru-mookkuthi-1984",
+    "title": "Poochakkoru Mookkuthi",
+    "year": 1984,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "boeing-boeing-1985",
+    "title": "Boeing Boeing",
+    "year": 1985,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "thalavattam-1986",
+    "title": "Thalavattam",
+    "year": 1986,
+    "director": "Priyadarshan",
+    "genre": "Romance"
+  },
+  {
+    "id": "mazha-peyyunnu-maddalam-kottunnu-1986",
+    "title": "Mazha Peyyunnu Maddalam Kottunnu",
+    "year": 1986,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "vellanakalude-nadu-1988",
+    "title": "Vellanakalude Nadu",
+    "year": 1988,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "aaryan-1988",
+    "title": "Aaryan",
+    "year": 1988,
+    "director": "Priyadarshan",
+    "genre": "Action"
+  },
+  {
+    "id": "vandanam-1989",
+    "title": "Vandanam",
+    "year": 1989,
+    "director": "Priyadarshan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "kilukkam-1991",
+    "title": "Kilukkam",
+    "year": 1991,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "mithunam-1993",
+    "title": "Mithunam",
+    "year": 1993,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "thenmavin-kombath-1994",
+    "title": "Thenmavin Kombath",
+    "year": 1994,
+    "director": "Priyadarshan",
+    "genre": "Romance"
+  },
+  {
+    "id": "minnaram-1994",
+    "title": "Minnaram",
+    "year": 1994,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kaalapani-1996",
+    "title": "Kaalapani",
+    "year": 1996,
+    "director": "Priyadarshan",
+    "genre": "Drama"
+  },
+  {
+    "id": "chandralekha-1997",
+    "title": "Chandralekha",
+    "year": 1997,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kakkakuyil-2001",
+    "title": "Kakkakuyil",
+    "year": 2001,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kilichundan-mampazham-2003",
+    "title": "Kilichundan Mampazham",
+    "year": 2003,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "vettam-2004",
+    "title": "Vettam",
+    "year": 2004,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "marakkar-arabikadalinte-simham-2021",
+    "title": "Marakkar: Arabikadalinte Simham",
+    "year": 2021,
+    "director": "Priyadarshan",
+    "genre": "Action"
+  },
+  {
+    "id": "irupatham-noottandu-1987",
+    "title": "Irupatham Noottandu",
+    "year": 1987,
+    "director": "K. Madhu",
+    "genre": "Thriller"
+  },
+  {
+    "id": "oru-cbi-diary-kurippu-1988",
+    "title": "Oru CBI Diary Kurippu",
+    "year": 1988,
+    "director": "K. Madhu",
+    "genre": "Thriller"
+  },
+  {
+    "id": "sethurama-iyer-cbi-2004",
+    "title": "Sethurama Iyer CBI",
+    "year": 2004,
+    "director": "K. Madhu",
+    "genre": "Thriller"
+  },
+  {
+    "id": "new-delhi-1987",
+    "title": "New Delhi",
+    "year": 1987,
+    "director": "Joshiy",
+    "genre": "Action"
+  },
+  {
+    "id": "nair-saab-1989",
+    "title": "Nair Saab",
+    "year": 1989,
+    "director": "Joshiy",
+    "genre": "Action"
+  },
+  {
+    "id": "dhruvam-1993",
+    "title": "Dhruvam",
+    "year": 1993,
+    "director": "Joshiy",
+    "genre": "Action"
+  },
+  {
+    "id": "sainyam-1994",
+    "title": "Sainyam",
+    "year": 1994,
+    "director": "Joshiy",
+    "genre": "Action"
+  },
+  {
+    "id": "lelam-1997",
+    "title": "Lelam",
+    "year": 1997,
+    "director": "Joshiy",
+    "genre": "Action"
+  },
+  {
+    "id": "thaniyavarthanam-1987",
+    "title": "Thaniyavarthanam",
+    "year": 1987,
+    "director": "Sibi Malayil",
+    "genre": "Drama"
+  },
+  {
+    "id": "dasharatham-1989",
+    "title": "Dasharatham",
+    "year": 1989,
+    "director": "Sibi Malayil",
+    "genre": "Drama"
+  },
+  {
+    "id": "bharatham-1991",
+    "title": "Bharatham",
+    "year": 1991,
+    "director": "Sibi Malayil",
+    "genre": "Drama"
+  },
+  {
+    "id": "ekalavyan-1993",
+    "title": "Ekalavyan",
+    "year": 1993,
+    "director": "Shaji Kailas",
+    "genre": "Action"
+  },
+  {
+    "id": "commissioner-1994",
+    "title": "Commissioner",
+    "year": 1994,
+    "director": "Shaji Kailas",
+    "genre": "Action"
+  },
+  {
+    "id": "the-king-1995",
+    "title": "The King",
+    "year": 1995,
+    "director": "Shaji Kailas",
+    "genre": "Action"
+  },
+  {
+    "id": "aaram-thampuran-1997",
+    "title": "Aaram Thampuran",
+    "year": 1997,
+    "director": "Shaji Kailas",
+    "genre": "Drama"
+  },
+  {
+    "id": "narasimham-2000",
+    "title": "Narasimham",
+    "year": 2000,
+    "director": "Shaji Kailas",
+    "genre": "Action"
+  },
+  {
+    "id": "kaduva-2022",
+    "title": "Kaduva",
+    "year": 2022,
+    "director": "Shaji Kailas",
+    "genre": "Action"
+  },
+  {
+    "id": "ramji-rao-speaking-1989",
+    "title": "Ramji Rao Speaking",
+    "year": 1989,
+    "director": "Siddique-Lal",
+    "genre": "Comedy"
+  },
+  {
+    "id": "vietnam-colony-1992",
+    "title": "Vietnam Colony",
+    "year": 1992,
+    "director": "Siddique-Lal",
+    "genre": "Comedy"
+  },
+  {
+    "id": "vadakkunokkiyantram-1989",
+    "title": "Vadakkunokkiyantram",
+    "year": 1989,
+    "director": "Sreenivasan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "oru-vadakkan-veeragatha-1989",
+    "title": "Oru Vadakkan Veeragatha",
+    "year": 1989,
+    "director": "Hariharan",
+    "genre": "Action"
+  },
+  {
+    "id": "perumthachan-1991",
+    "title": "Perumthachan",
+    "year": 1991,
+    "director": "Ajayan",
+    "genre": "Drama"
+  },
+  {
+    "id": "sargam-1992",
+    "title": "Sargam",
+    "year": 1992,
+    "director": "Hariharan",
+    "genre": "Romance"
+  },
+  {
+    "id": "ponthan-mada-1994",
+    "title": "Ponthan Mada",
+    "year": 1994,
+    "director": "T. V. Chandran",
+    "genre": "Drama"
+  },
+  {
+    "id": "guru-1997",
+    "title": "Guru",
+    "year": 1997,
+    "director": "Rajiv Anchal",
+    "genre": "Drama"
+  },
+  {
+    "id": "punjabi-house-1998",
+    "title": "Punjabi House",
+    "year": 1998,
+    "director": "Rafi Mecartin",
+    "genre": "Comedy"
+  },
+  {
+    "id": "thenkasipattanam-2000",
+    "title": "Thenkasipattanam",
+    "year": 2000,
+    "director": "Rafi Mecartin",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ayal-katha-ezhuthukayanu-1998",
+    "title": "Ayal Katha Ezhuthukayanu",
+    "year": 1998,
+    "director": "Kamal",
+    "genre": "Drama"
+  },
+  {
+    "id": "oru-maravathoor-kanavu-1998",
+    "title": "Oru Maravathoor Kanavu",
+    "year": 1998,
+    "director": "Lal Jose",
+    "genre": "Comedy"
+  },
+  {
+    "id": "madhuranombarakattu-2000",
+    "title": "Madhuranombarakattu",
+    "year": 2000,
+    "director": "Kamal",
+    "genre": "Romance"
+  },
+  {
+    "id": "meesa-madhavan-2002",
+    "title": "Meesa Madhavan",
+    "year": 2002,
+    "director": "Lal Jose",
+    "genre": "Comedy"
+  },
+  {
+    "id": "nandanam-2002",
+    "title": "Nandanam",
+    "year": 2002,
+    "director": "Ranjith",
+    "genre": "Drama"
+  },
+  {
+    "id": "cid-moosa-2003",
+    "title": "CID Moosa",
+    "year": 2003,
+    "director": "Johny Antony",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kaazhcha-2004",
+    "title": "Kaazhcha",
+    "year": 2004,
+    "director": "Blessy",
+    "genre": "Drama"
+  },
+  {
+    "id": "perumazhakkalam-2004",
+    "title": "Perumazhakkalam",
+    "year": 2004,
+    "director": "Kamal",
+    "genre": "Drama"
+  },
+  {
+    "id": "anandabhadram-2005",
+    "title": "Anandabhadram",
+    "year": 2005,
+    "director": "Santosh Sivan",
+    "genre": "Horror"
+  },
+  {
+    "id": "chandupottu-2005",
+    "title": "Chandupottu",
+    "year": 2005,
+    "director": "Lal Jose",
+    "genre": "Comedy"
+  },
+  {
+    "id": "rajamanikyam-2005",
+    "title": "Rajamanikyam",
+    "year": 2005,
+    "director": "Anwar Rasheed",
+    "genre": "Comedy"
+  },
+  {
+    "id": "thommanum-makkalum-2005",
+    "title": "Thommanum Makkalum",
+    "year": 2005,
+    "director": "Shafi",
+    "genre": "Comedy"
+  },
+  {
+    "id": "classmates-2006",
+    "title": "Classmates",
+    "year": 2006,
+    "director": "Lal Jose",
+    "genre": "Drama"
+  },
+  {
+    "id": "big-b-2007",
+    "title": "Big B",
+    "year": 2007,
+    "director": "Amal Neerad",
+    "genre": "Action"
+  },
+  {
+    "id": "arabikkatha-2007",
+    "title": "Arabikkatha",
+    "year": 2007,
+    "director": "Lal Jose",
+    "genre": "Comedy"
+  },
+  {
+    "id": "rock-n-roll-2007",
+    "title": "Rock n Roll",
+    "year": 2007,
+    "director": "Ranjith",
+    "genre": "Comedy"
+  },
+  {
+    "id": "hallo-2007",
+    "title": "Hallo",
+    "year": 2007,
+    "director": "Rafi Mecartin",
+    "genre": "Comedy"
+  },
+  {
+    "id": "paleri-manikyam-2009",
+    "title": "Paleri Manikyam",
+    "year": 2009,
+    "director": "Ranjith",
+    "genre": "Crime"
+  },
+  {
+    "id": "pazhassi-raja-2009",
+    "title": "Pazhassi Raja",
+    "year": 2009,
+    "director": "Hariharan",
+    "genre": "Action"
+  },
+  {
+    "id": "sagar-alias-jacky-reloaded-2009",
+    "title": "Sagar Alias Jacky Reloaded",
+    "year": 2009,
+    "director": "Amal Neerad",
+    "genre": "Action"
+  },
+  {
+    "id": "bhramaram-2009",
+    "title": "Bhramaram",
+    "year": 2009,
+    "director": "Blessy",
+    "genre": "Thriller"
+  },
+  {
+    "id": "pranchiyettan-and-the-saint-2010",
+    "title": "Pranchiyettan & the Saint",
+    "year": 2010,
+    "director": "Ranjith",
+    "genre": "Comedy"
+  },
+  {
+    "id": "mummy-and-me-2010",
+    "title": "Mummy & Me",
+    "year": 2010,
+    "director": "Jeethu Joseph",
+    "genre": "Drama"
+  },
+  {
+    "id": "marykkundoru-kunjaadu-2010",
+    "title": "Marykkundoru Kunjaadu",
+    "year": 2010,
+    "director": "Biju Vattappara",
+    "genre": "Comedy"
+  },
+  {
+    "id": "pokkiri-raja-2010",
+    "title": "Pokkiri Raja",
+    "year": 2010,
+    "director": "Vysakh",
+    "genre": "Action"
+  },
+  {
+    "id": "beautiful-2011",
+    "title": "Beautiful",
+    "year": 2011,
+    "director": "V. K. Prakash",
+    "genre": "Drama"
+  },
+  {
+    "id": "pranayam-2011",
+    "title": "Pranayam",
+    "year": 2011,
+    "director": "Blessy",
+    "genre": "Romance"
+  },
+  {
+    "id": "chappa-kurishu-2011",
+    "title": "Chappa Kurishu",
+    "year": 2011,
+    "director": "Sameer Thahir",
+    "genre": "Thriller"
+  },
+  {
+    "id": "urumi-2011",
+    "title": "Urumi",
+    "year": 2011,
+    "director": "Santosh Sivan",
+    "genre": "Action"
+  },
+  {
+    "id": "22-female-kottayam-2012",
+    "title": "22 Female Kottayam",
+    "year": 2012,
+    "director": "Aashiq Abu",
+    "genre": "Thriller"
+  },
+  {
+    "id": "ordinary-2012",
+    "title": "Ordinary",
+    "year": 2012,
+    "director": "Sugeeth",
+    "genre": "Thriller"
+  },
+  {
+    "id": "thattathin-marayathu-2012",
+    "title": "Thattathin Marayathu",
+    "year": 2012,
+    "director": "Vineeth Sreenivasan",
+    "genre": "Romance"
+  },
+  {
+    "id": "trivandrum-lodge-2012",
+    "title": "Trivandrum Lodge",
+    "year": 2012,
+    "director": "V. K. Prakash",
+    "genre": "Comedy"
+  },
+  {
+    "id": "spirit-2012",
+    "title": "Spirit",
+    "year": 2012,
+    "director": "Ranjith",
+    "genre": "Drama"
+  },
+  {
+    "id": "diamond-necklace-2012",
+    "title": "Diamond Necklace",
+    "year": 2012,
+    "director": "Lal Jose",
+    "genre": "Drama"
+  },
+  {
+    "id": "bachelor-party-2012",
+    "title": "Bachelor Party",
+    "year": 2012,
+    "director": "Amal Neerad",
+    "genre": "Action"
+  },
+  {
+    "id": "ee-adutha-kaalathu-2012",
+    "title": "Ee Adutha Kaalathu",
+    "year": 2012,
+    "director": "Arun Kumar Aravind",
+    "genre": "Thriller"
+  },
+  {
+    "id": "memories-2013",
+    "title": "Memories",
+    "year": 2013,
+    "director": "Jeethu Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "thira-2013",
+    "title": "Thira",
+    "year": 2013,
+    "director": "Vineeth Sreenivasan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "north-24-kaatham-2013",
+    "title": "North 24 Kaatham",
+    "year": 2013,
+    "director": "Anil Radhakrishna Menon",
+    "genre": "Comedy"
+  },
+  {
+    "id": "left-right-left-2013",
+    "title": "Left Right Left",
+    "year": 2013,
+    "director": "Arun Kumar Aravind",
+    "genre": "Drama"
+  },
+  {
+    "id": "idukki-gold-2013",
+    "title": "Idukki Gold",
+    "year": 2013,
+    "director": "Aashiq Abu",
+    "genre": "Comedy"
+  },
+  {
+    "id": "punyalan-agarbattis-2013",
+    "title": "Punyalan Agarbattis",
+    "year": 2013,
+    "director": "Ranjith Sankar",
+    "genre": "Comedy"
+  },
+  {
+    "id": "zachariayude-garbhinikal-2013",
+    "title": "Zachariayude Garbhinikal",
+    "year": 2013,
+    "director": "Aneesh Anwar",
+    "genre": "Comedy"
+  },
+  {
+    "id": "celluloid-2013",
+    "title": "Celluloid",
+    "year": 2013,
+    "director": "Kamal",
+    "genre": "Drama"
+  },
+  {
+    "id": "kalimannu-2013",
+    "title": "Kalimannu",
+    "year": 2013,
+    "director": "Blessy",
+    "genre": "Drama"
+  },
+  {
+    "id": "amen-2013",
+    "title": "Amen",
+    "year": 2013,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Comedy"
+  },
+  {
+    "id": "1983-2014",
+    "title": "1983",
+    "year": 2014,
+    "director": "Abrid Shine",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ohm-shanti-oshaana-2014",
+    "title": "Ohm Shanti Oshaana",
+    "year": 2014,
+    "director": "Jude Anthany Joseph",
+    "genre": "Romance"
+  },
+  {
+    "id": "iyobinte-pusthakam-2014",
+    "title": "Iyobinte Pusthakam",
+    "year": 2014,
+    "director": "Amal Neerad",
+    "genre": "Drama"
+  },
+  {
+    "id": "njan-steve-lopez-2014",
+    "title": "Njan Steve Lopez",
+    "year": 2014,
+    "director": "Rajeev Ravi",
+    "genre": "Drama"
+  },
+  {
+    "id": "ennum-eppozhum-2015",
+    "title": "Ennum Eppozhum",
+    "year": 2015,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "amar-akbar-anthony-2015",
+    "title": "Amar Akbar Anthony",
+    "year": 2015,
+    "director": "Nadirshah",
+    "genre": "Comedy"
+  },
+  {
+    "id": "rani-padmini-2015",
+    "title": "Rani Padmini",
+    "year": 2015,
+    "director": "Aashiq Abu",
+    "genre": "Drama"
+  },
+  {
+    "id": "ozhivudivasathe-kali-2015",
+    "title": "Ozhivudivasathe Kali",
+    "year": 2015,
+    "director": "Sanal Kumar Sasidharan",
+    "genre": "Drama"
+  },
+  {
+    "id": "su-su-sudhi-vathmeekam-2015",
+    "title": "Su Su Sudhi Vathmeekam",
+    "year": 2015,
+    "director": "Ranjith Sankar",
+    "genre": "Comedy"
+  },
+  {
+    "id": "oru-vadakkan-selfie-2015",
+    "title": "Oru Vadakkan Selfie",
+    "year": 2015,
+    "director": "G. Prajith",
+    "genre": "Comedy"
+  },
+  {
+    "id": "annmariya-kalippilaanu-2016",
+    "title": "Annmariya Kalippilaanu",
+    "year": 2016,
+    "director": "Midhun Manuel Thomas",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kattappanayile-rithwik-roshan-2016",
+    "title": "Kattappanayile Rithwik Roshan",
+    "year": 2016,
+    "director": "Nadirshah",
+    "genre": "Comedy"
+  },
+  {
+    "id": "jacobinte-swargarajyam-2016",
+    "title": "Jacobinte Swargarajyam",
+    "year": 2016,
+    "director": "Vineeth Sreenivasan",
+    "genre": "Drama"
+  },
+  {
+    "id": "kali-2016",
+    "title": "Kali",
+    "year": 2016,
+    "director": "Sameer Thahir",
+    "genre": "Thriller"
+  },
+  {
+    "id": "guppy-2016",
+    "title": "Guppy",
+    "year": 2016,
+    "director": "John Paul George",
+    "genre": "Drama"
+  },
+  {
+    "id": "action-hero-biju-2016",
+    "title": "Action Hero Biju",
+    "year": 2016,
+    "director": "Abrid Shine",
+    "genre": "Comedy"
+  },
+  {
+    "id": "kismath-2016",
+    "title": "Kismath",
+    "year": 2016,
+    "director": "Shanavas K. Bavakutty",
+    "genre": "Romance"
+  },
+  {
+    "id": "mayaanadhi-2017",
+    "title": "Mayaanadhi",
+    "year": 2017,
+    "director": "Aashiq Abu",
+    "genre": "Romance"
+  },
+  {
+    "id": "parava-2017",
+    "title": "Parava",
+    "year": 2017,
+    "director": "Soubin Shahir",
+    "genre": "Drama"
+  },
+  {
+    "id": "role-models-2017",
+    "title": "Role Models",
+    "year": 2017,
+    "director": "Rafi",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ramaleela-2017",
+    "title": "Ramaleela",
+    "year": 2017,
+    "director": "Arun Gopy",
+    "genre": "Thriller"
+  },
+  {
+    "id": "njandukalude-nattil-oru-idavela-2017",
+    "title": "Njandukalude Nattil Oru Idavela",
+    "year": 2017,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Comedy"
+  },
+  {
+    "id": "sakhavu-2017",
+    "title": "Sakhavu",
+    "year": 2017,
+    "director": "Sidhartha Siva",
+    "genre": "Drama"
+  },
+  {
+    "id": "ramante-edanthottam-2017",
+    "title": "Ramante Edanthottam",
+    "year": 2017,
+    "director": "Ranjith Sankar",
+    "genre": "Drama"
+  },
+  {
+    "id": "sexy-durga-2017",
+    "title": "Sexy Durga",
+    "year": 2017,
+    "director": "Sanal Kumar Sasidharan",
+    "genre": "Drama"
+  },
+  {
+    "id": "ezra-2017",
+    "title": "Ezra",
+    "year": 2017,
+    "director": "Jay K",
+    "genre": "Horror"
+  },
+  {
+    "id": "varathan-2018",
+    "title": "Varathan",
+    "year": 2018,
+    "director": "Amal Neerad",
+    "genre": "Thriller"
+  },
+  {
+    "id": "queen-2018",
+    "title": "Queen",
+    "year": 2018,
+    "director": "Dijo Jose Antony",
+    "genre": "Drama"
+  },
+  {
+    "id": "eeda-2018",
+    "title": "Eeda",
+    "year": 2018,
+    "director": "B. Ajithkumar",
+    "genre": "Romance"
+  },
+  {
+    "id": "aadhi-2018",
+    "title": "Aadhi",
+    "year": 2018,
+    "director": "Jeethu Joseph",
+    "genre": "Action"
+  },
+  {
+    "id": "poomaram-2018",
+    "title": "Poomaram",
+    "year": 2018,
+    "director": "Abrid Shine",
+    "genre": "Drama"
+  },
+  {
+    "id": "njan-marykutty-2018",
+    "title": "Njan Marykutty",
+    "year": 2018,
+    "director": "Ranjith Sankar",
+    "genre": "Drama"
+  },
+  {
+    "id": "vikruthi-2019",
+    "title": "Vikruthi",
+    "year": 2019,
+    "director": "M. C. Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "thanneer-mathan-dinangal-2019",
+    "title": "Thanneer Mathan Dinangal",
+    "year": 2019,
+    "director": "Girish A. D.",
+    "genre": "Comedy"
+  },
+  {
+    "id": "driving-licence-2019",
+    "title": "Driving Licence",
+    "year": 2019,
+    "director": "Lal Jr.",
+    "genre": "Comedy"
+  },
+  {
+    "id": "madhura-raja-2019",
+    "title": "Madhura Raja",
+    "year": 2019,
+    "director": "Vysakh",
+    "genre": "Action"
+  },
+  {
+    "id": "mamangam-2019",
+    "title": "Mamangam",
+    "year": 2019,
+    "director": "M. Padmakumar",
+    "genre": "Action"
+  },
+  {
+    "id": "manoharam-2019",
+    "title": "Manoharam",
+    "year": 2019,
+    "director": "Anvar Sadik",
+    "genre": "Comedy"
+  },
+  {
+    "id": "c-u-soon-2020",
+    "title": "C U Soon",
+    "year": 2020,
+    "director": "Mahesh Narayanan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "sufiyum-sujatayum-2020",
+    "title": "Sufiyum Sujatayum",
+    "year": 2020,
+    "director": "Naranipuzha Shanavas",
+    "genre": "Romance"
+  },
+  {
+    "id": "drishyam-2-2021",
+    "title": "Drishyam 2",
+    "year": 2021,
+    "director": "Jeethu Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "joji-2021",
+    "title": "Joji",
+    "year": 2021,
+    "director": "Dileesh Pothan",
+    "genre": "Crime"
+  },
+  {
+    "id": "malik-2021",
+    "title": "Malik",
+    "year": 2021,
+    "director": "Mahesh Narayanan",
+    "genre": "Crime"
+  },
+  {
+    "id": "churuli-2021",
+    "title": "Churuli",
+    "year": 2021,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Thriller"
+  },
+  {
+    "id": "operation-java-2021",
+    "title": "Operation Java",
+    "year": 2021,
+    "director": "Tharun Moorthy",
+    "genre": "Thriller"
+  },
+  {
+    "id": "super-sharanya-2022",
+    "title": "Super Sharanya",
+    "year": 2022,
+    "director": "Girish A. D.",
+    "genre": "Comedy"
+  },
+  {
+    "id": "jana-gana-mana-2022",
+    "title": "Jana Gana Mana",
+    "year": 2022,
+    "director": "Dijo Jose Antony",
+    "genre": "Drama"
+  },
+  {
+    "id": "kuttavum-shikshayum-2022",
+    "title": "Kuttavum Shikshayum",
+    "year": 2022,
+    "director": "Rajeev Ravi",
+    "genre": "Crime"
+  },
+  {
+    "id": "saudi-vellakka-2022",
+    "title": "Saudi Vellakka",
+    "year": 2022,
+    "director": "Tharun Moorthy",
+    "genre": "Drama"
+  },
+  {
+    "id": "jaya-jaya-jaya-jaya-hey-2022",
+    "title": "Jaya Jaya Jaya Jaya Hey",
+    "year": 2022,
+    "director": "Vipin Das",
+    "genre": "Comedy"
+  },
+  {
+    "id": "12th-man-2022",
+    "title": "12th Man",
+    "year": 2022,
+    "director": "Jeethu Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "bhoothakaalam-2022",
+    "title": "Bhoothakaalam",
+    "year": 2022,
+    "director": "Rahul Sadasivan",
+    "genre": "Horror"
+  },
+  {
+    "id": "ariyippu-2022",
+    "title": "Ariyippu",
+    "year": 2022,
+    "director": "Mahesh Narayanan",
+    "genre": "Drama"
+  },
+  {
+    "id": "vaashi-2022",
+    "title": "Vaashi",
+    "year": 2022,
+    "director": "Vishnu G. Raghav",
+    "genre": "Drama"
+  },
+  {
+    "id": "aarattu-2022",
+    "title": "Aarattu",
+    "year": 2022,
+    "director": "B. Unnikrishnan",
+    "genre": "Action"
+  },
+  {
+    "id": "ela-veezha-poonchira-2022",
+    "title": "Ela Veezha Poonchira",
+    "year": 2022,
+    "director": "Shahi Kabir",
+    "genre": "Thriller"
+  },
+  {
+    "id": "neru-2023",
+    "title": "Neru",
+    "year": 2023,
+    "director": "Jeethu Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "thuramukham-2023",
+    "title": "Thuramukham",
+    "year": 2023,
+    "director": "Rajeev Ravi",
+    "genre": "Drama"
+  },
+  {
+    "id": "nanpakal-nerathu-mayakkam-2023",
+    "title": "Nanpakal Nerathu Mayakkam",
+    "year": 2023,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Drama"
+  },
+  {
+    "id": "falimy-2023",
+    "title": "Falimy",
+    "year": 2023,
+    "director": "Nithish Sahadev",
+    "genre": "Comedy"
+  },
+  {
+    "id": "sulaikha-manzil-2023",
+    "title": "Sulaikha Manzil",
+    "year": 2023,
+    "director": "Ashraf Hamza",
+    "genre": "Comedy"
+  },
+  {
+    "id": "pachuvum-athbhutha-vilakkum-2023",
+    "title": "Pachuvum Athbhutha Vilakkum",
+    "year": 2023,
+    "director": "Akhil Sathyan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "pookkaalam-2023",
+    "title": "Pookkaalam",
+    "year": 2023,
+    "director": "Ganesh Raj",
+    "genre": "Drama"
+  },
+  {
+    "id": "neelavelicham-2023",
+    "title": "Neelavelicham",
+    "year": 2023,
+    "director": "Aashiq Abu",
+    "genre": "Horror"
+  },
+  {
+    "id": "christopher-2023",
+    "title": "Christopher",
+    "year": 2023,
+    "director": "B. Unnikrishnan",
+    "genre": "Action"
+  },
+  {
+    "id": "garudan-2023",
+    "title": "Garudan",
+    "year": 2023,
+    "director": "Arun Varma",
+    "genre": "Thriller"
+  },
+  {
+    "id": "malaikottai-vaaliban-2024",
+    "title": "Malaikottai Vaaliban",
+    "year": 2024,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Action"
+  },
+  {
+    "id": "varshangalkku-shesham-2024",
+    "title": "Varshangalkku Shesham",
+    "year": 2024,
+    "director": "Vineeth Sreenivasan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "guruvayoor-ambalanadayil-2024",
+    "title": "Guruvayoor Ambalanadayil",
+    "year": 2024,
+    "director": "Vipin Das",
+    "genre": "Comedy"
+  },
+  {
+    "id": "turbo-2024",
+    "title": "Turbo",
+    "year": 2024,
+    "director": "Vysakh",
+    "genre": "Action"
+  },
+  {
+    "id": "ajayante-randam-moshanam-2024",
+    "title": "Ajayante Randam Moshanam",
+    "year": 2024,
+    "director": "Jithin Lal",
+    "genre": "Action"
+  },
+  {
+    "id": "nadikar-2024",
+    "title": "Nadikar",
+    "year": 2024,
+    "director": "Lal Jr.",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ullozhukku-2024",
+    "title": "Ullozhukku",
+    "year": 2024,
+    "director": "Christo Tomy",
+    "genre": "Drama"
+  },
+  {
+    "id": "kishkindha-kaandam-2024",
+    "title": "Kishkindha Kaandam",
+    "year": 2024,
+    "director": "Dinjith Ayyathan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "bougainvillea-2024",
+    "title": "Bougainvillea",
+    "year": 2024,
+    "director": "Amal Neerad",
+    "genre": "Thriller"
+  },
+  {
+    "id": "rifle-club-2024",
+    "title": "Rifle Club",
+    "year": 2024,
+    "director": "Aashiq Abu",
+    "genre": "Action"
+  },
+  {
+    "id": "pani-2024",
+    "title": "Pani",
+    "year": 2024,
+    "director": "Joju George",
+    "genre": "Thriller"
+  },
+  {
+    "id": "marco-2024",
+    "title": "Marco",
+    "year": 2024,
+    "director": "Haneef Adeni",
+    "genre": "Action"
+  },
+  {
+    "id": "rekhachithram-2025",
+    "title": "Rekhachithram",
+    "year": 2025,
+    "director": "Jofin T. Chacko",
+    "genre": "Thriller"
+  },
+  {
+    "id": "officer-on-duty-2025",
+    "title": "Officer on Duty",
+    "year": 2025,
+    "director": "Jithu Ashraf",
+    "genre": "Thriller"
+  },
+  {
+    "id": "empuraan-2025",
+    "title": "Empuraan",
+    "year": 2025,
+    "director": "Prithviraj Sukumaran",
+    "genre": "Action"
+  },
+  {
+    "id": "thudarum-2025",
+    "title": "Thudarum",
+    "year": 2025,
+    "director": "Tharun Moorthy",
+    "genre": "Thriller"
+  },
+  {
+    "id": "ponman-2025",
+    "title": "Ponman",
+    "year": 2025,
+    "director": "Jothish Shankar",
+    "genre": "Drama"
+  },
+  {
+    "id": "lokah-chapter-1-chandra-2025",
+    "title": "Lokah Chapter 1: Chandra",
+    "year": 2025,
+    "director": "Dominic Arun",
+    "genre": "Superhero"
   }
 ]
