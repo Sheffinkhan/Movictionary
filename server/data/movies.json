@@ -1,0 +1,471 @@
+[
+  {
+    "id": "drishyam-2013",
+    "title": "Drishyam",
+    "year": 2013,
+    "director": "Jeethu Joseph",
+    "genre": "Thriller"
+  },
+  {
+    "id": "premam-2015",
+    "title": "Premam",
+    "year": 2015,
+    "director": "Alphonse Puthren",
+    "genre": "Romance"
+  },
+  {
+    "id": "kumbalangi-nights-2019",
+    "title": "Kumbalangi Nights",
+    "year": 2019,
+    "director": "Madhu C. Narayanan",
+    "genre": "Drama"
+  },
+  {
+    "id": "manjummel-boys-2024",
+    "title": "Manjummel Boys",
+    "year": 2024,
+    "director": "Chidambaram",
+    "genre": "Survival"
+  },
+  {
+    "id": "maheshinte-prathikaaram-2016",
+    "title": "Maheshinte Prathikaaram",
+    "year": 2016,
+    "director": "Dileesh Pothan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "aavesham-2024",
+    "title": "Aavesham",
+    "year": 2024,
+    "director": "Jithu Madhavan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "bangalore-days-2014",
+    "title": "Bangalore Days",
+    "year": 2014,
+    "director": "Anjali Menon",
+    "genre": "Drama"
+  },
+  {
+    "id": "lucifer-2019",
+    "title": "Lucifer",
+    "year": 2019,
+    "director": "Prithviraj Sukumaran",
+    "genre": "Action"
+  },
+  {
+    "id": "angamaly-diaries-2017",
+    "title": "Angamaly Diaries",
+    "year": 2017,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Crime"
+  },
+  {
+    "id": "ustad-hotel-2012",
+    "title": "Ustad Hotel",
+    "year": 2012,
+    "director": "Anwar Rasheed",
+    "genre": "Drama"
+  },
+  {
+    "id": "charlie-2015",
+    "title": "Charlie",
+    "year": 2015,
+    "director": "Martin Prakkat",
+    "genre": "Drama"
+  },
+  {
+    "id": "ayyappanum-koshiyum-2020",
+    "title": "Ayyappanum Koshiyum",
+    "year": 2020,
+    "director": "Sachy",
+    "genre": "Action"
+  },
+  {
+    "id": "joseph-2018",
+    "title": "Joseph",
+    "year": 2018,
+    "director": "M. Padmakumar",
+    "genre": "Thriller"
+  },
+  {
+    "id": "jallikattu-2019",
+    "title": "Jallikattu",
+    "year": 2019,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Thriller"
+  },
+  {
+    "id": "the-great-indian-kitchen-2021",
+    "title": "The Great Indian Kitchen",
+    "year": 2021,
+    "director": "Jeo Baby",
+    "genre": "Drama"
+  },
+  {
+    "id": "minnal-murali-2021",
+    "title": "Minnal Murali",
+    "year": 2021,
+    "director": "Basil Joseph",
+    "genre": "Superhero"
+  },
+  {
+    "id": "thondimuthalum-driksakshiyum-2017",
+    "title": "Thondimuthalum Driksakshiyum",
+    "year": 2017,
+    "director": "Dileesh Pothan",
+    "genre": "Drama"
+  },
+  {
+    "id": "kireedam-1989",
+    "title": "Kireedam",
+    "year": 1989,
+    "director": "Sibi Malayil",
+    "genre": "Drama"
+  },
+  {
+    "id": "manichitrathazhu-1993",
+    "title": "Manichitrathazhu",
+    "year": 1993,
+    "director": "Fazil",
+    "genre": "Horror"
+  },
+  {
+    "id": "chithram-1988",
+    "title": "Chithram",
+    "year": 1988,
+    "director": "Priyadarshan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "nadodikkattu-1987",
+    "title": "Nadodikkattu",
+    "year": 1987,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "spadikam-1995",
+    "title": "Spadikam",
+    "year": 1995,
+    "director": "Bhadran",
+    "genre": "Action"
+  },
+  {
+    "id": "devasuram-1993",
+    "title": "Devasuram",
+    "year": 1993,
+    "director": "I. V. Sasi",
+    "genre": "Drama"
+  },
+  {
+    "id": "godfather-1991",
+    "title": "Godfather",
+    "year": 1991,
+    "director": "Siddique-Lal",
+    "genre": "Comedy"
+  },
+  {
+    "id": "in-harihar-nagar-1990",
+    "title": "In Harihar Nagar",
+    "year": 1990,
+    "director": "Siddique-Lal",
+    "genre": "Comedy"
+  },
+  {
+    "id": "thanmathra-2005",
+    "title": "Thanmathra",
+    "year": 2005,
+    "director": "Blessy",
+    "genre": "Drama"
+  },
+  {
+    "id": "traffic-2011",
+    "title": "Traffic",
+    "year": 2011,
+    "director": "Rajesh Pillai",
+    "genre": "Thriller"
+  },
+  {
+    "id": "hridayam-2022",
+    "title": "Hridayam",
+    "year": 2022,
+    "director": "Vineeth Sreenivasan",
+    "genre": "Romance"
+  },
+  {
+    "id": "jan-e-man-2021",
+    "title": "Jan.E.Man",
+    "year": 2021,
+    "director": "Chidambaram",
+    "genre": "Comedy"
+  },
+  {
+    "id": "home-2021",
+    "title": "Home",
+    "year": 2021,
+    "director": "Rojin Thomas",
+    "genre": "Drama"
+  },
+  {
+    "id": "kurup-2021",
+    "title": "Kurup",
+    "year": 2021,
+    "director": "Srinath Rajendran",
+    "genre": "Crime"
+  },
+  {
+    "id": "bheeshma-parvam-2022",
+    "title": "Bheeshma Parvam",
+    "year": 2022,
+    "director": "Amal Neerad",
+    "genre": "Action"
+  },
+  {
+    "id": "romancham-2023",
+    "title": "Romancham",
+    "year": 2023,
+    "director": "Jithu Madhavan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "2018-2023",
+    "title": "2018",
+    "year": 2023,
+    "director": "Jude Anthany Joseph",
+    "genre": "Survival"
+  },
+  {
+    "id": "kaathal-the-core-2023",
+    "title": "Kaathal - The Core",
+    "year": 2023,
+    "director": "Jeo Baby",
+    "genre": "Drama"
+  },
+  {
+    "id": "bramayugam-2024",
+    "title": "Bramayugam",
+    "year": 2024,
+    "director": "Rahul Sadasivan",
+    "genre": "Horror"
+  },
+  {
+    "id": "aadujeevitham-2024",
+    "title": "Aadujeevitham",
+    "year": 2024,
+    "director": "Blessy",
+    "genre": "Survival"
+  },
+  {
+    "id": "premalu-2024",
+    "title": "Premalu",
+    "year": 2024,
+    "director": "Girish A. D.",
+    "genre": "Romance"
+  },
+  {
+    "id": "kannur-squad-2023",
+    "title": "Kannur Squad",
+    "year": 2023,
+    "director": "Roby Varghese Raj",
+    "genre": "Crime"
+  },
+  {
+    "id": "iratta-2023",
+    "title": "Iratta",
+    "year": 2023,
+    "director": "Rohit M. G. Krishnan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "nayattu-2021",
+    "title": "Nayattu",
+    "year": 2021,
+    "director": "Martin Prakkat",
+    "genre": "Thriller"
+  },
+  {
+    "id": "android-kunjappan-version-5-25-2019",
+    "title": "Android Kunjappan Version 5.25",
+    "year": 2019,
+    "director": "Ratheesh Balakrishnan Poduval",
+    "genre": "Comedy"
+  },
+  {
+    "id": "ee-ma-yau-2018",
+    "title": "Ee.Ma.Yau",
+    "year": 2018,
+    "director": "Lijo Jose Pellissery",
+    "genre": "Drama"
+  },
+  {
+    "id": "sudani-from-nigeria-2018",
+    "title": "Sudani from Nigeria",
+    "year": 2018,
+    "director": "Zakariya Mohammed",
+    "genre": "Comedy"
+  },
+  {
+    "id": "virus-2019",
+    "title": "Virus",
+    "year": 2019,
+    "director": "Aashiq Abu",
+    "genre": "Thriller"
+  },
+  {
+    "id": "take-off-2017",
+    "title": "Take Off",
+    "year": 2017,
+    "director": "Mahesh Narayanan",
+    "genre": "Drama"
+  },
+  {
+    "id": "pulimurugan-2016",
+    "title": "Pulimurugan",
+    "year": 2016,
+    "director": "Vysakh",
+    "genre": "Action"
+  },
+  {
+    "id": "oppam-2016",
+    "title": "Oppam",
+    "year": 2016,
+    "director": "Priyadarshan",
+    "genre": "Thriller"
+  },
+  {
+    "id": "kammattipaadam-2016",
+    "title": "Kammattipaadam",
+    "year": 2016,
+    "director": "Rajeev Ravi",
+    "genre": "Crime"
+  },
+  {
+    "id": "uyare-2019",
+    "title": "Uyare",
+    "year": 2019,
+    "director": "Manu Ashokan",
+    "genre": "Drama"
+  },
+  {
+    "id": "anjaam-pathiraa-2020",
+    "title": "Anjaam Pathiraa",
+    "year": 2020,
+    "director": "Midhun Manuel Thomas",
+    "genre": "Thriller"
+  },
+  {
+    "id": "kuruthi-2021",
+    "title": "Kuruthi",
+    "year": 2021,
+    "director": "Manu Warrier",
+    "genre": "Thriller"
+  },
+  {
+    "id": "thallumaala-2022",
+    "title": "Thallumaala",
+    "year": 2022,
+    "director": "Khalid Rahman",
+    "genre": "Comedy"
+  },
+  {
+    "id": "malikappuram-2022",
+    "title": "Malikappuram",
+    "year": 2022,
+    "director": "Vishnu Sasi Shankar",
+    "genre": "Drama"
+  },
+  {
+    "id": "pathemari-2015",
+    "title": "Pathemari",
+    "year": 2015,
+    "director": "Salim Ahamed",
+    "genre": "Drama"
+  },
+  {
+    "id": "ennu-ninte-moideen-2015",
+    "title": "Ennu Ninte Moideen",
+    "year": 2015,
+    "director": "R. S. Vimal",
+    "genre": "Romance"
+  },
+  {
+    "id": "salt-n-pepper-2011",
+    "title": "Salt N' Pepper",
+    "year": 2011,
+    "director": "Aashiq Abu",
+    "genre": "Romance"
+  },
+  {
+    "id": "annayum-rasoolum-2013",
+    "title": "Annayum Rasoolum",
+    "year": 2013,
+    "director": "Rajeev Ravi",
+    "genre": "Romance"
+  },
+  {
+    "id": "mumbai-police-2013",
+    "title": "Mumbai Police",
+    "year": 2013,
+    "director": "Rosshan Andrrews",
+    "genre": "Thriller"
+  },
+  {
+    "id": "njan-prakashan-2018",
+    "title": "Njan Prakashan",
+    "year": 2018,
+    "director": "Sathyan Anthikad",
+    "genre": "Comedy"
+  },
+  {
+    "id": "varane-avashyamund-2020",
+    "title": "Varane Avashyamund",
+    "year": 2020,
+    "director": "Anoop Sathyan",
+    "genre": "Comedy"
+  },
+  {
+    "id": "aadu-2015",
+    "title": "Aadu",
+    "year": 2015,
+    "director": "Midhun Manuel Thomas",
+    "genre": "Comedy"
+  },
+  {
+    "id": "neelakasham-pachakadal-chuvanna-bhoomi-2013",
+    "title": "Neelakasham Pachakadal Chuvanna Bhoomi",
+    "year": 2013,
+    "director": "Sameer Thahir",
+    "genre": "Drama"
+  },
+  {
+    "id": "rorschach-2022",
+    "title": "Rorschach",
+    "year": 2022,
+    "director": "Nissam Basheer",
+    "genre": "Thriller"
+  },
+  {
+    "id": "nna-thaan-case-kodu-2022",
+    "title": "Nna Thaan Case Kodu",
+    "year": 2022,
+    "director": "Ratheesh Balakrishnan Poduval",
+    "genre": "Comedy"
+  },
+  {
+    "id": "mukundan-unni-associates-2022",
+    "title": "Mukundan Unni Associates",
+    "year": 2022,
+    "director": "Abhinav Sunder Nayak",
+    "genre": "Comedy"
+  },
+  {
+    "id": "vellimoonga-2014",
+    "title": "Vellimoonga",
+    "year": 2014,
+    "director": "Jibu Jacob",
+    "genre": "Comedy"
+  }
+]

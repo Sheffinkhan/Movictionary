@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 
 export async function api(url, body) {
   const res = await fetch(url, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : undefined);
@@ -12,6 +12,7 @@ export function useApi(url, fallback) {
   const [error, setError] = useState(null);
   useEffect(() => {
     let live = true;
+    setError(null);
     api(url).then((d) => live && setData(d)).catch((e) => live && setError(e));
     return () => { live = false; };
   }, [url]);
@@ -28,3 +29,8 @@ export function copyText(text, toast) {
     .then(() => toast('Copied'))
     .catch(() => toast('Press Ctrl+C to copy'));
 }
+
+// Watchlist and toast are shared by every page.
+export const AppContext = createContext({ watchlist: [], toggleWatch() {}, toast() {} });
+export const useApp = () => useContext(AppContext);
+export const INSTAGRAM = 'https://www.instagram.com/movictionary_/';

@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { api } from '../lib.js';
+import { api, useApp } from '../lib.js';
 
-export default function Newsletter({ toast }) {
+export default function Newsletter() {
+  const { toast } = useApp();
   const [email, setEmail] = useState('');
 
   const submit = async (e) => {

@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { api, copyText, useApi } from '../lib.js';
+import { api, copyText, useApi, useApp } from '../lib.js';
 
-export default function Creator({ toast }) {
+export default function Creator() {
+  const { toast } = useApp();
   const [movie, setMovie] = useState('');
   const [out, setOut] = useState(null);
   const [tips] = useApi('/api/tips', []);

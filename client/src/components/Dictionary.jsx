@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api } from '../lib.js';
 
 const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
-export default function Dictionary({ externalQuery }) {
-  const [q, setQ] = useState('');
+export default function Dictionary() {
+  const [params] = useSearchParams();
+  const [q, setQ] = useState(params.get('q') || '');
   const [letter, setLetter] = useState('');
   const [terms, setTerms] = useState([]);
   const [present, setPresent] = useState(null);
 
-  useEffect(() => { setQ(externalQuery); setLetter(''); }, [externalQuery]);
 
   useEffect(() => {
     api('/api/terms').then((all) => setPresent(new Set(all.map((t) => t.t[0].toUpperCase()))));

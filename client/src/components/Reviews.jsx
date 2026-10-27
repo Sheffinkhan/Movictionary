@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import { useApi } from '../lib.js';
+import { Link } from 'react-router-dom';
+import { useApi, useApp } from '../lib.js';
 
-export default function Reviews({ watchlist, onToggle }) {
+export default function Reviews() {
+  const { watchlist, toggleWatch: onToggle } = useApp();
   const [genre, setGenre] = useState('All');
   const [all] = useApi('/api/reviews', []);
   const GENRES = ['All', ...new Set(all.map((r) => r.g))];
@@ -22,7 +24,7 @@ export default function Reviews({ watchlist, onToggle }) {
           return (
             <article className="card rev" key={r.t}>
               <div className="top">
-                <div><span className="tag">{r.g} · {r.y}</span><h3 style={{ marginTop: 4 }}>{r.t}</h3></div>
+                <div><span className="tag">{r.g} · {r.y}</span><h3 style={{ marginTop: 4 }}>{r.movieId ? <Link to={`/movies/${r.movieId}`}>{r.t}</Link> : r.t}</h3></div>
                 <div className="stars" aria-label={`${full} of 5 stars`}>{'★'.repeat(full)}{'☆'.repeat(5 - full)}</div>
               </div>
               <p>{r.x}</p>
@@ -34,7 +36,7 @@ export default function Reviews({ watchlist, onToggle }) {
           );
         })}
       </div>
-      <p className="note">Sample reviews. Edit them in server/data/content.json.</p>
+      <p className="note">Sample reviews. Manage them in the admin panel.</p>
     </section>
   );
 }

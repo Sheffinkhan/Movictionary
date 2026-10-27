@@ -31,7 +31,7 @@ export function Updates() {
           </article>
         ))}
       </div>
-      <p className="note">Sample updates. Edit them in server/data/content.json.</p>
+      <p className="note">Sample updates. Manage them in the admin panel.</p>
     </section>
   );
 }

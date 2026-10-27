@@ -15,10 +15,31 @@ export default {
   },
   servers: [{ url: '/' }],
   tags: [
-    { name: 'Dictionary' }, { name: 'Content' }, { name: 'Play' }, { name: 'Creator' }, { name: 'Newsletter' },
+    { name: 'Movies' }, { name: 'Dictionary' }, { name: 'Content' }, { name: 'Play' }, { name: 'Creator' }, { name: 'Newsletter' },
   ],
   paths: {
     '/api/health': { get: { summary: 'Health check', responses: { 200: ok('Server is running', { type: 'object', properties: { ok: { type: 'boolean' } } }) } } },
+    '/api/movies': {
+      get: {
+        tags: ['Movies'], summary: 'Browse all Malayalam movies (search, filter, sort, paginate)',
+        parameters: [
+          { name: 'q', in: 'query', schema: { type: 'string' }, description: 'Movie title or director' },
+          { name: 'genre', in: 'query', schema: { type: 'string' } },
+          { name: 'decade', in: 'query', schema: { type: 'integer', example: 2010 } },
+          { name: 'sort', in: 'query', schema: { type: 'string', enum: ['newest', 'oldest', 'title'] } },
+          { name: 'page', in: 'query', schema: { type: 'integer', default: 1 } },
+          { name: 'limit', in: 'query', schema: { type: 'integer', default: 24, maximum: 100 } },
+        ],
+        responses: { 200: ok('Page of movies with total, genres and decades', { type: 'object' }) },
+      },
+    },
+    '/api/movies/{id}': {
+      get: {
+        tags: ['Movies'], summary: 'Movie details with review and related films',
+        parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string', example: 'premam-2015' } }],
+        responses: { 200: ok('Movie', { type: 'object' }), 404: { description: 'Movie not found' } },
+      },
+    },
     '/api/terms': {
       get: {
         tags: ['Dictionary'], summary: 'List dictionary terms (A–Z)',
