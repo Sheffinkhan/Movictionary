@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0b0b0c"/>
+  <g opacity=".12" fill="#f2c230"><rect x="40" y="0" width="30" height="800"/><rect x="1130" y="0" width="30" height="800"/></g>
+  <path d="M470 250h260L600 430z" fill="#f2c230"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="96" fill="#f3f1ea">Movictionary</text>
+  <text x="600" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#a09d92" letter-spacing="8">STORIES · MALAYALAM CINEMA</text>
+</svg>

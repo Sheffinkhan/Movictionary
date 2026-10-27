@@ -5,3 +5,5 @@ server/data/store.json
 server/data/movictionary.sqlite
 .adminjs
 server/.adminjs
+server/uploads/*
+!server/uploads/.gitkeep

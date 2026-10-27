@@ -25,7 +25,7 @@ npm start             # Express serves the site, API and admin on :3001
 ## Pages
 
 `/` home · `/movies` all movies (search, genre, decade, sort, pages) · `/movies/:id` movie detail ·
-`/dictionary` · `/reviews` · `/songs` · `/updates` · `/books` · `/play` · `/creator`
+`/dictionary` · `/reviews` · `/stories` · `/songs` · `/updates` · `/books` · `/play` · `/creator`
 
 ## Where things are
 
@@ -33,3 +33,7 @@ npm start             # Express serves the site, API and admin on :3001
 - Movies, reviews, terms, songs, updates, poll options and subscribers are edited in the admin panel.
 - `server/openapi.js`: the Swagger/OpenAPI spec.
 - `client/src`: React app (`App.jsx`, `pages/`, `components/`).
+
+## Stories
+
+Add posts in the admin panel under Stories (Posts). Each post can have writing, an uploaded image, an uploaded video (mp4, webm, mov) or a video link (YouTube, direct .mp4, or any other link). Uploads are stored in `server/uploads` and are not committed.

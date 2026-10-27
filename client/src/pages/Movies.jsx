@@ -49,7 +49,7 @@ export default function Movies() {
         </select>
       </div>
 
-      <div className="grid">
+      <div className="grid posters">
         {data.items.length
           ? data.items.map((m) => <MovieCard key={m.id} movie={m} />)
           : <div className="empty">No movies match your filters. Try clearing the search.</div>}

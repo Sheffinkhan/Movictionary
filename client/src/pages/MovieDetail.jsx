@@ -49,7 +49,7 @@ export default function MovieDetail() {
       {m.related.length > 0 && (
         <>
           <h2 style={{ fontSize: 24, margin: '44px 0 18px' }}>More {m.genre} films</h2>
-          <div className="grid">{m.related.map((r) => <MovieCard key={r.id} movie={r} />)}</div>
+          <div className="grid posters">{m.related.map((r) => <MovieCard key={r.id} movie={r} />)}</div>
         </>
       )}
     </section>

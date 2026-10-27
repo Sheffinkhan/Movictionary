@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import session from 'express-session';
 import swaggerUi from 'swagger-ui-express';
-import AdminJS from 'adminjs';
+import AdminJS, { ComponentLoader } from 'adminjs';
 import AdminJSExpress from '@adminjs/express';
 import * as AdminJSSequelize from '@adminjs/sequelize';
 import { Op } from 'sequelize';
@@ -10,7 +10,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import openapi from './openapi.js';
-import { initDb, Movie, Term, Review, Song, Update, PollOption, Subscriber } from './db.js';
+import uploadFeature from '@adminjs/upload';
+import { initDb, UPLOADS, Post, Movie, Term, Review, Song, Update, PollOption, Subscriber } from './db.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT || 3001;
@@ -23,10 +24,42 @@ app.use(cors());
 const { ADMIN_EMAIL, ADMIN_PASSWORD, COOKIE_SECRET } = process.env;
 if (ADMIN_EMAIL && ADMIN_PASSWORD) {
   AdminJS.registerAdapter({ Resource: AdminJSSequelize.Resource, Database: AdminJSSequelize.Database });
+  const componentLoader = new ComponentLoader();
+  const upload = (kind, mimeTypes) => uploadFeature({
+    componentLoader,
+    provider: { local: { bucket: UPLOADS, opts: { baseUrl: '/uploads' } } },
+    properties: {
+      key: `${kind}Key`, bucket: `${kind}Bucket`, mimeType: `${kind}Mime`,
+      file: `${kind}File`, filePath: `${kind}FilePath`, filesToDelete: `${kind}FilesToDelete`,
+    },
+    validation: { mimeTypes },
+    uploadPath: (_record, filename) => `posts/${Date.now()}-${filename}`,
+  });
   const admin = new AdminJS({
+    componentLoader,
     rootPath: '/admin',
     branding: { companyName: 'Movictionary', withMadeWithLove: false },
     resources: [
+      {
+        resource: Post,
+        options: {
+          navigation: 'Stories',
+          listProperties: ['id', 'title', 'published', 'createdAt'],
+          editProperties: ['title', 'body', 'imageFile', 'videoFile', 'videoUrl', 'published'],
+          showProperties: ['id', 'title', 'body', 'imageFile', 'videoFile', 'videoUrl', 'published', 'createdAt'],
+          properties: {
+            body: { type: 'textarea', props: { rows: 8 } },
+            videoUrl: { description: 'Optional: a YouTube link, a direct .mp4 link, or an Instagram link' },
+            imageBucket: { isVisible: false }, imageMime: { isVisible: false }, imageKey: { isVisible: false },
+            videoBucket: { isVisible: false }, videoMime: { isVisible: false }, videoKey: { isVisible: false },
+          },
+          sort: { sortBy: 'createdAt', direction: 'desc' },
+        },
+        features: [
+          upload('image', ['image/png', 'image/jpeg', 'image/webp', 'image/gif', 'image/svg+xml']),
+          upload('video', ['video/mp4', 'video/webm', 'video/quicktime']),
+        ],
+      },
       { resource: Movie, options: { navigation: 'Content', listProperties: ['id', 'title', 'year', 'genre', 'director'] } },
       { resource: Review, options: { navigation: 'Content', properties: { text: { type: 'textarea' } } } },
       { resource: Term, options: { navigation: 'Content', properties: { definition: { type: 'textarea' }, example: { type: 'textarea' } } } },
@@ -54,6 +87,7 @@ if (ADMIN_EMAIL && ADMIN_PASSWORD) {
 }
 
 app.use(express.json());
+app.use('/uploads', express.static(UPLOADS));
 
 const norm = (s) => String(s || '').trim().toLowerCase();
 const dayNumber = () => Math.floor(Date.now() / 864e5);
@@ -123,6 +157,31 @@ app.get('/api/reviews', async (req, res) => {
   const movies = plain(await Movie.findAll({ attributes: ['id', 'title'] }));
   const ids = new Map(movies.map((m) => [norm(m.title), m.id]));
   res.json(reviews.map((r) => ({ t: r.title, g: r.genre, y: r.year, s: r.score, x: r.text, movieId: ids.get(norm(r.title)) || null })));
+});
+
+// Stories: posts with writing, an image and/or a video.
+function videoOut(p) {
+  if (p.videoKey) return { kind: 'file', src: `/uploads/${p.videoKey}` };
+  const url = (p.videoUrl || '').trim();
+  if (!url) return null;
+  const yt = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{11})/);
+  if (yt) return { kind: 'youtube', src: `https://www.youtube.com/embed/${yt[1]}` };
+  if (/\.(mp4|webm|mov)(\?|$)/i.test(url)) return { kind: 'file', src: url };
+  return { kind: 'link', src: url };
+}
+const postOut = (p) => {
+  const image = p.imageKey ? `/uploads/${p.imageKey}` : null;
+  const video = videoOut(p);
+  return {
+    id: p.id, title: p.title, body: p.body || '', createdAt: p.createdAt, image, video,
+    type: video ? 'video' : image ? 'image' : 'text',
+  };
+};
+app.get('/api/posts', async (req, res) => {
+  const rows = plain(await Post.findAll({ where: { published: true }, order: [['createdAt', 'DESC'], ['id', 'DESC']] }));
+  const posts = rows.map(postOut);
+  const { type } = req.query;
+  res.json(type && type !== 'all' ? posts.filter((p) => p.type === type) : posts);
 });
 
 app.get('/api/songs', async (_req, res) => res.json(plain(await Song.findAll({ order: [['id', 'ASC']] }))));

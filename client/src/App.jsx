@@ -9,9 +9,10 @@ import Reviews from './components/Reviews.jsx';
 import { Songs, Updates, Books } from './components/Content.jsx';
 import PlayZone from './components/PlayZone.jsx';
 import Creator from './components/Creator.jsx';
+import Stories from './pages/Stories.jsx';
 import Newsletter from './components/Newsletter.jsx';
 
-const LINKS = [['/movies', 'Movies'], ['/dictionary', 'Dictionary'], ['/reviews', 'Reviews'], ['/songs', 'Songs'], ['/updates', 'Updates'], ['/books', 'Books'], ['/play', 'Play'], ['/creator', 'Creator']];
+const LINKS = [['/movies', 'Movies'], ['/dictionary', 'Dictionary'], ['/reviews', 'Reviews'], ['/songs', 'Songs'], ['/updates', 'Updates'], ['/books', 'Books'], ['/stories', 'Stories'], ['/play', 'Play'], ['/creator', 'Creator']];
 
 
 function NotFound() {
@@ -97,6 +98,7 @@ export default function App() {
           <Route path="/songs" element={<Songs />} />
           <Route path="/updates" element={<Updates />} />
           <Route path="/books" element={<Books instagram={INSTAGRAM} />} />
+          <Route path="/stories" element={<Stories />} />
           <Route path="/play" element={<PlayZone />} />
           <Route path="/creator" element={<Creator />} />
           <Route path="*" element={<NotFound />} />

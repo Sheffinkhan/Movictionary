@@ -15,7 +15,7 @@ export default {
   },
   servers: [{ url: '/' }],
   tags: [
-    { name: 'Movies' }, { name: 'Dictionary' }, { name: 'Content' }, { name: 'Play' }, { name: 'Creator' }, { name: 'Newsletter' },
+    { name: 'Movies' }, { name: 'Stories' }, { name: 'Dictionary' }, { name: 'Content' }, { name: 'Play' }, { name: 'Creator' }, { name: 'Newsletter' },
   ],
   paths: {
     '/api/health': { get: { summary: 'Health check', responses: { 200: ok('Server is running', { type: 'object', properties: { ok: { type: 'boolean' } } }) } } },
@@ -38,6 +38,13 @@ export default {
         tags: ['Movies'], summary: 'Movie details with review and related films',
         parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string', example: 'premam-2015' } }],
         responses: { 200: ok('Movie', { type: 'object' }), 404: { description: 'Movie not found' } },
+      },
+    },
+    '/api/posts': {
+      get: {
+        tags: ['Stories'], summary: 'Published story posts (writing, image, video), newest first',
+        parameters: [{ name: 'type', in: 'query', schema: { type: 'string', enum: ['all', 'text', 'image', 'video'] } }],
+        responses: { 200: ok('Posts', { type: 'array', items: { type: 'object' } }) },
       },
     },
     '/api/terms': {

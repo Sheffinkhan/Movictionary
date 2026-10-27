@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { Sequelize, DataTypes } from 'sequelize';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+export const UPLOADS = path.join(__dirname, 'uploads');
 const read = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, 'data', f), 'utf8'));
 
 export const sequelize = new Sequelize({
@@ -56,6 +57,19 @@ export const PollOption = sequelize.define('PollOption', {
   votes: { type: INTEGER, defaultValue: 0 },
 }, { timestamps: false });
 
+export const Post = sequelize.define('Post', {
+  title: { type: STRING, allowNull: false },
+  body: TEXT,
+  videoUrl: STRING,
+  imageKey: STRING,
+  imageBucket: STRING,
+  imageMime: STRING,
+  videoKey: STRING,
+  videoBucket: STRING,
+  videoMime: STRING,
+  published: { type: DataTypes.BOOLEAN, defaultValue: true },
+});
+
 export const Subscriber = sequelize.define('Subscriber', {
   email: { type: STRING, allowNull: false, unique: true },
 }, { updatedAt: false });
@@ -74,6 +88,22 @@ export async function initDb() {
   ];
   for (const [Model, rows] of seed) {
     if ((await Model.count()) === 0) await Model.bulkCreate(rows);
+  }
+  if ((await Post.count()) === 0) {
+    const dir = path.join(UPLOADS, 'posts', 'welcome');
+    fs.mkdirSync(dir, { recursive: true });
+    fs.copyFileSync(path.join(__dirname, 'seed', 'welcome.svg'), path.join(dir, 'welcome.svg'));
+    await Post.bulkCreate([
+      {
+        title: 'Welcome to Movictionary Stories',
+        body: 'This is where I share my stories, photos and videos about Malayalam cinema. Writing, pictures and clips will all show up here, newest first.',
+        imageKey: 'posts/welcome/welcome.svg', imageBucket: UPLOADS, imageMime: 'image/svg+xml',
+      },
+      {
+        title: 'Why Malayalam films feel so close to home',
+        body: 'The kitchen, the tea shop, the bus stop. Malayalam cinema finds big stories in small places, and that is why a film about four brothers in a fishing village can make a whole country feel seen.\n\nWhat was the first Malayalam film that felt like your own life? Tell me on Instagram.',
+      },
+    ]);
   }
   return content;
 }

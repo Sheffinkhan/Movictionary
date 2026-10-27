@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useApi } from '../lib.js';
 
 export function Songs() {
@@ -40,23 +41,28 @@ export function Books({ instagram }) {
   const [data] = useApi('/api/books', { books: [], story: null });
   return (
     <section id="books">
-      <div className="sec-head"><div><h2>Books &amp; Stories</h2><p>Page versus screen, plus short stories from the community.</p></div></div>
-      <div className="grid">
+      <div className="sec-head"><div><h2>Books &amp; Stories</h2><p>Page versus screen, plus stories from the page owner.</p></div></div>
+      <div className="grid three">
         {data.books.map((b) => (
-          <article className="card" key={b.b}>
+          <article className="card bookcard" key={b.b}>
             <span className="tag">Book vs Film</span>
             <div className="vs">
-              <div>{b.b}<small>{b.a}</small></div><i>VS</i><div>{b.f}<small>On screen</small></div>
+              <div className="cover"><span>Book</span><b>{b.b}</b><small>{b.a}</small></div>
+              <i>VS</i>
+              <div className="cover film"><span>Film</span><b>{b.f}</b><small>On screen</small></div>
             </div>
             <p>{b.v}</p>
           </article>
         ))}
         {data.story && (
-          <article className="card" style={{ borderColor: 'var(--gold)' }}>
+          <article className="card bookcard cta">
             <span className="tag">Stories</span>
             <h3>{data.story.t}</h3>
             <p>{data.story.x}</p>
-            <a className="btn" style={{ alignSelf: 'flex-start', marginTop: 'auto' }} target="_blank" rel="noopener" href={instagram}>Send via Instagram DM</a>
+            <div className="cta-row">
+              <Link className="btn" to="/stories">Read stories</Link>
+              <a className="btn ghost" target="_blank" rel="noopener" href={instagram}>Send yours</a>
+            </div>
           </article>
         )}
       </div>
