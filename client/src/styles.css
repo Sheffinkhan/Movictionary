@@ -1,14 +1,18 @@
 
-/* Layout: dark cinema-black stage, gold accent from the "mov" logo, sticky nav, one scrolling page of sections with a dictionary-first hero. */
+/* Kasavu theme: Kerala cream and deep green with a gold sari-border motif; dark mode is forest green. --gold is the primary accent (green on light, gold on dark), --kasavu is always gold. */
 :root{
-  --bg:#0b0b0c; --surface:#151517; --surface-2:#1d1d20; --line:#2b2b30;
-  --fg:#f3f1ea; --muted:#a09d92; --gold:#f2c230; --gold-text:#f2c230; --gold-ink:#141104;
-  --good:#5fd08a; --font-display:'Unbounded',system-ui,sans-serif; --font-serif:'Newsreader',Georgia,serif; --font-body:'Manrope',system-ui,sans-serif;
-  color-scheme:dark;
+  --bg:#fbf5e6; --surface:#fffdf6; --surface-2:#f3ead2; --line:#e3d6b4;
+  --fg:#1b2a22; --muted:#5d6a5f; --gold:#0e5a3a; --gold-text:#0e5a3a; --gold-ink:#fff7de;
+  --kasavu:#c9952b; --clay:#b4412a; --good:#177a41;
+  --font-display:'Fraunces',Georgia,serif; --font-serif:'Newsreader',Georgia,serif; --font-body:'Manrope',system-ui,sans-serif;
+  color-scheme:light;
 }
-@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
-  --bg:#f6f3ea; --surface:#ffffff; --surface-2:#efebdf; --line:#ddd8c8; --fg:#141414; --muted:#645f52; --gold-text:#7d5a00; --good:#177a41; color-scheme:light}}
-:root[data-theme="light"]{--bg:#f6f3ea; --surface:#ffffff; --surface-2:#efebdf; --line:#ddd8c8; --fg:#141414; --muted:#645f52; --gold-text:#7d5a00; --good:#177a41; color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0a1511; --surface:#112119; --surface-2:#173026; --line:#25423a; --fg:#f6efd9; --muted:#9fb3a6;
+  --gold:#e0b04a; --gold-text:#e0b04a; --gold-ink:#1a1405; --kasavu:#e0b04a; --clay:#e58a6f; --good:#5fd08a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a1511; --surface:#112119; --surface-2:#173026; --line:#25423a; --fg:#f6efd9; --muted:#9fb3a6;
+  --gold:#e0b04a; --gold-text:#e0b04a; --gold-ink:#1a1405; --kasavu:#e0b04a; --clay:#e58a6f; --good:#5fd08a; color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
 body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:16px;line-height:1.6;

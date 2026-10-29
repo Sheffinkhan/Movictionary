@@ -1,0 +1,64 @@
+/* ---------- Kasavu theme overrides ---------- */
+/* The sari border: a gold stripe pattern used for the nav edge, section marks and footer. */
+:root{--border-motif:repeating-linear-gradient(90deg,var(--kasavu) 0 14px,transparent 14px 18px)}
+
+h1,h2,h3,.logo,.detail-title,.hero h1{letter-spacing:-.02em}
+h1,h2,.detail-title,.hero h1{font-weight:800}
+.logo i{border-top-color:var(--kasavu)}
+
+body{background-image:radial-gradient(900px 420px at 90% -140px,color-mix(in srgb,var(--kasavu) 22%,transparent),transparent 70%),radial-gradient(700px 380px at -10% 35%,color-mix(in srgb,var(--gold) 10%,transparent),transparent 70%);background-repeat:no-repeat}
+
+nav{border-bottom:0;box-shadow:0 1px 0 var(--line)}
+nav::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:4px;background:var(--border-motif);opacity:.9}
+footer{border-top:0;position:relative;padding-top:36px}
+footer::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--border-motif)}
+section{border-top:0}
+section::before{content:none}
+.sec-head h2::before{width:64px;height:4px;border-radius:0;background:var(--border-motif)}
+
+.hero h1 em{color:var(--clay)}
+.btn{border-radius:99px}
+.btn.ghost{border-color:color-mix(in srgb,var(--fg) 22%,transparent)}
+.card,.post,.wotd,.tracks,.stats>div{border-radius:20px}
+.card{box-shadow:0 1px 0 var(--line)}
+.grid>.card:hover{border-color:var(--kasavu);box-shadow:0 18px 34px -22px color-mix(in srgb,var(--gold) 45%,transparent)}
+.wotd{box-shadow:0 30px 60px -36px color-mix(in srgb,var(--kasavu) 70%,transparent)}
+.wotd::after{background:var(--kasavu)}
+.tag,.eyebrow{color:var(--clay)}
+.ex{border-left-color:var(--kasavu)}
+.badge{background:color-mix(in srgb,var(--kasavu) 20%,transparent);color:var(--gold-text)}
+.chips.big .chip:hover{background:var(--gold);color:var(--gold-ink);border-color:var(--gold)}
+.az button[aria-pressed="true"],.chip[aria-pressed="true"]{background:var(--gold);color:var(--gold-ink)}
+.wl-count{background:var(--kasavu);color:#1a1405}
+.icon-btn:hover,.p-add:hover{border-color:var(--kasavu)}
+
+/* ticker */
+.ticker{background:var(--gold);color:var(--gold-ink);border-color:transparent}
+.ticker-track{color:var(--gold-ink)}
+.ticker-track i{color:var(--kasavu)}
+
+/* posters stay dark so the film-strip look reads on the cream page; accents move to kasavu gold */
+.p-genre{background:var(--kasavu);color:#1a1405}
+.p-badge{color:#e8c36a}
+.p-add.on{background:var(--kasavu);color:#1a1405;border-color:var(--kasavu)}
+.g-thriller{--a:#1d3b52;--b:#07131c}.g-romance{--a:#7a2a3e;--b:#1d0a12}.g-drama{--a:#0f4a35;--b:#04150e}
+.g-comedy{--a:#a4701a;--b:#2a1a03}.g-action{--a:#8a2d1a;--b:#220904}.g-crime{--a:#2c3a33;--b:#0a110d}
+.g-survival{--a:#0f5a62;--b:#041416}.g-horror{--a:#4a2150;--b:#12061a}.g-superhero{--a:#2a3f8a;--b:#080d24}
+
+/* book vs film boxes */
+.cover.film{background:linear-gradient(165deg,#0f4a35,#04150e);color:#fbf5e6}
+.cover.film span{color:#e8c36a}
+.bookcard.cta{border-color:var(--kasavu)}
+
+/* stories */
+.avatar{background:#0f3d2a;color:#e8c36a;box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--kasavu)}
+.link-video{background:linear-gradient(165deg,#0f4a35,#04150e)}
+.play-dot{background:var(--kasavu);color:#1a1405}
+
+/* newsletter */
+.nl{background:var(--gold);color:var(--gold-ink);position:relative;overflow:hidden}
+.nl::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:var(--border-motif)}
+.nl .btn{background:var(--kasavu);color:#1a1405}
+
+/* mobile bar */
+.tabbar a.active,.tabbar button.active{background:var(--gold);color:var(--gold-ink)}

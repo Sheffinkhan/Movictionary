@@ -60,7 +60,7 @@ export default function App() {
 
   const toggleTheme = () => {
     const root = document.documentElement;
-    const cur = root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    const cur = root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     const next = cur === 'dark' ? 'light' : 'dark';
     root.setAttribute('data-theme', next);
     storage.set('mov-theme', next);
